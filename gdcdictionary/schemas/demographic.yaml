@@ -22,7 +22,7 @@ systemProperties:
 
 links:
   - name: subjects
-    backref: demographics
+    backref: demographicss
     label: describes
     target_type: subject
     multiplicity: one_to_one

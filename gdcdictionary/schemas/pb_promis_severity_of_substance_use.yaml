@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_substance_uses
-    backref: pb_promis_severity_of_substance_use
+    backref: pb_promis_severity_of_substance_uses
     label: derived_from
     target_type: pb_substance_use
     multiplicity: many_to_one

@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_covid
-    backref: pb_supplemental_covid
+  - name: pb_covids
+    backref: pb_supplemental_covids
     label: derived_from
     target_type: pb_covid
     multiplicity: many_to_one
@@ -87,5 +87,5 @@ properties:
       - NOT AFFECTED my mental and emotional health
       - IMPROVED my mental and emotional health
 
-  pb_covid:
+  pb_covids:
     $ref: "_definitions.yaml#/to_one"

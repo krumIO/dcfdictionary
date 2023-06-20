@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_stigma_discrimination
-    backref: pb_susms
+  - name: pb_stigma_discriminations
+    backref: pb_susmss
     label: derived_from
     target_type: pb_stigma_discrimination
     multiplicity: many_to_one
@@ -257,5 +257,5 @@ properties:
       Subscale Internalized Stigma
     type: number
 
-  pb_stigma_discrimination:
+  pb_stigma_discriminations:
     $ref: "_definitions.yaml#/to_one"

@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_implementation_science
-    backref: pb_aim_iam_fim
+  - name: pb_implementation_sciences
+    backref: pb_aim_iam_fims
     label: derived_from
     target_type: pb_implementation_science
     multiplicity: many_to_one
@@ -215,5 +215,5 @@ properties:
       Overall score for the IMPOWR Shared Decision Making assessment
     type: number
 
-  pb_implementation_science:
+  pb_implementation_sciences:
     $ref: "_definitions.yaml#/to_one"

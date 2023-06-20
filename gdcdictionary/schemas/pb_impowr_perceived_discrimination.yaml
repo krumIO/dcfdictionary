@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_stigma_discrimination
-    backref: pb_impowr_perceived_discrimination
+  - name: pb_stigma_discriminations
+    backref: pb_impowr_perceived_discriminations
     label: derived_from
     target_type: pb_stigma_discrimination
     multiplicity: many_to_one
@@ -82,5 +82,5 @@ properties:
       - Never
       - Not Sure
 
-  pb_stigma_discrimination:
+  pb_stigma_discriminations:
     $ref: "_definitions.yaml#/to_one"

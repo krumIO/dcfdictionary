@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_ptsd
-    backref: pb_ptsd_supplemental_pcl_five
+  - name: pb_ptsds
+    backref: pb_ptsd_supplemental_pcl_fives
     label: derived_from
     target_type: pb_ptsd
     multiplicity: many_to_one
@@ -272,5 +272,5 @@ properties:
       Symptom Cluster E Score
     type: number
 
-  pb_ptsd:
+  pb_ptsds:
     $ref: "_definitions.yaml#/to_one"

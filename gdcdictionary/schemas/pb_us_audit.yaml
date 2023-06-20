@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_substance_uses
-    backref: pb_us_audit
+    backref: pb_us_audits
     label: derived_from
     target_type: pb_substance_use
     multiplicity: many_to_one

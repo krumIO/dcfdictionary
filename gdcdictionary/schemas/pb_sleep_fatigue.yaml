@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: patient_baselines
-    backref: pb_sleep_fatigue
+    backref: pb_sleep_fatigues
     label: derived_from
     target_type: patient_baseline
     multiplicity: many_to_one

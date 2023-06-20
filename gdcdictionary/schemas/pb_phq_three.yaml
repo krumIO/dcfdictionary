@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_depressions
-    backref: pb_phq_three
+    backref: pb_phq_threes
     label: derived_from
     target_type: pb_depression
     multiplicity: many_to_one

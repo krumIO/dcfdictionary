@@ -20,7 +20,7 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: studies
+  - name: protocols_impowr
     backref: participants
     label: derived_from
     target_type: protocol_impowr
@@ -30,7 +30,6 @@ links:
 required:
   - submitter_id
   - type
-  - studies
 
 uniqueKeys:
   - [id]
@@ -45,5 +44,5 @@ properties:
       Placeholder property.
     type: string
 
-  studies:
+  protocols_impowr:
     $ref: "_definitions.yaml#/to_one"

@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_socials
-    backref: pb_mmspss_supplemental
+    backref: pb_mmspss_supplementals
     label: derived_from
     target_type: pb_social
     multiplicity: many_to_one

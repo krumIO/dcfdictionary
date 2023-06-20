@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_substance_uses
-    backref: pb_supplemental_smoking
+    backref: pb_supplemental_smokings
     label: derived_from
     target_type: pb_substance_use
     multiplicity: many_to_one

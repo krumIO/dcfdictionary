@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: patient_baselines
-    backref: pb_stigma_discrimination
+    backref: pb_stigma_discriminations
     label: derived_from
     target_type: patient_baseline
     multiplicity: many_to_one

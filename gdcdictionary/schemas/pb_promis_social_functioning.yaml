@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_socials
-    backref: pb_promis_social_functioning
+    backref: pb_promis_social_functionings
     label: derived_from
     target_type: pb_social
     multiplicity: many_to_one

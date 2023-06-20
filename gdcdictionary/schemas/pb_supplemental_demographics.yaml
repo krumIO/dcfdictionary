@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_demographics
-    backref: pb_supplemental_demographics
+  - name: pb_demographicss
+    backref: pb_supplemental_demographicss
     label: derived_from
     target_type: pb_demographics
     multiplicity: many_to_one
@@ -223,5 +223,5 @@ properties:
       Don't Know
     type: string
 
-  pb_demographics:
+  pb_demographicss:
     $ref: "_definitions.yaml#/to_one"

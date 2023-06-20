@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_ptsd
-    backref: pb_primarycare_ptsd_screening
+  - name: pb_ptsds
+    backref: pb_primarycare_ptsd_screenings
     label: derived_from
     target_type: pb_ptsd
     multiplicity: many_to_one
@@ -91,5 +91,5 @@ properties:
       Overall score
     type: number
 
-  pb_ptsd:
+  pb_ptsds:
     $ref: "_definitions.yaml#/to_one"

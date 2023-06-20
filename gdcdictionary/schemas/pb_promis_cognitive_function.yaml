@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_overall_functions
-    backref: pb_promis_cognitive_function
+    backref: pb_promis_cognitive_functions
     label: derived_from
     target_type: pb_overall_function
     multiplicity: many_to_one

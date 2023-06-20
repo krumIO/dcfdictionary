@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_stigma_discrimination
-    backref: sup_treatment_satisfaction
+  - name: pb_stigma_discriminations
+    backref: sup_treatment_satisfactions
     label: derived_from
     target_type: pb_stigma_discrimination
     multiplicity: many_to_one
@@ -100,5 +100,5 @@ properties:
       Overall score
     type: number
 
-  pb_stigma_discrimination:
+  pb_stigma_discriminations:
     $ref: "_definitions.yaml#/to_one"

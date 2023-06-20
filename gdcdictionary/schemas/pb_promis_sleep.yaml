@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_sleep_fatigues
-    backref: pb_promis_sleep
+    backref: pb_promis_sleeps
     label: derived_from
     target_type: pb_sleep_fatigue
     multiplicity: many_to_one

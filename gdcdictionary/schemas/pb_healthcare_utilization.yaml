@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_health_economics
-    backref: pb_healthcare_utilization
+  - name: pb_health_economicss
+    backref: pb_healthcare_utilizations
     label: derived_from
     target_type: pb_health_economics
     multiplicity: many_to_one
@@ -322,5 +322,5 @@ properties:
       During the past 6 months, how many days have you been on probation?
     type: string
 
-  pb_health_economics:
+  pb_health_economicss:
     $ref: "_definitions.yaml#/to_one"

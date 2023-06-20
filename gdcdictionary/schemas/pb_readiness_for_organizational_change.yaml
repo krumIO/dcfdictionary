@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_implementation_science
-    backref: pb_readiness_for_organizational_change
+  - name: pb_implementation_sciences
+    backref: pb_readiness_for_organizational_changes
     label: derived_from
     target_type: pb_implementation_science
     multiplicity: many_to_one
@@ -327,5 +327,5 @@ properties:
       Overall score
     type: number
 
-  pb_implementation_science:
+  pb_implementation_sciences:
     $ref: "_definitions.yaml#/to_one"

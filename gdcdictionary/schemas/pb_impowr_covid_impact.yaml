@@ -20,8 +20,8 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_covid
-    backref: pb_impowr_covid_impact
+  - name: pb_covids
+    backref: pb_impowr_covid_impacts
     label: derived_from
     target_type: pb_covid
     multiplicity: many_to_one
@@ -106,5 +106,5 @@ properties:
       - IMPROVED my OUD access A LOT
       - Prefer not to answer
 
-  pb_covid:
+  pb_covids:
     $ref: "_definitions.yaml#/to_one"
