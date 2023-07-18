@@ -20,7 +20,7 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_health_economicss
+  - name: pb_health_economics
     backref: pb_health_literacies
     label: derived_from
     target_type: pb_health_economics
@@ -49,5 +49,5 @@ properties:
       - A little of the time
       - None of the time
 
-  pb_health_economicss:
+  pb_health_economics:
     $ref: "_definitions.yaml#/to_one"

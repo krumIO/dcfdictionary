@@ -4,7 +4,7 @@ id: "core_metadata_collection"
 title: Core Metadata Collection
 type: object
 namespace: https://nci-crdc-demo.datacommons.io/
-category: administrative
+category: data_file
 program: '*'
 project: '*'
 description: >-
@@ -38,7 +38,27 @@ uniqueKeys:
 
 properties:
 
-  $ref: "_definitions.yaml#/ubiquitous_properties"
+  $ref: "_definitions.yaml#/data_file_properties"
+
+  data_category:
+    $ref: "_terms.yaml#/data_category"
+    enum:
+      - Raw Sequencing Data
+      - Sequencing Data
+      - Sequencing Reads
+
+  data_format:
+    $ref: "_terms.yaml#/data_format"
+    enum:
+      - BAM
+      - BED
+
+  data_type:
+    description: >-
+      The nature or genre of the resource. Recommended best practice is to use a controlled
+      vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file
+      format, physical medium, or dimensions of the resource, use the Format element.
+    type: string
 
   contributor:
     description: >-
@@ -65,13 +85,6 @@ properties:
       An entity primarily responsible for making the resource. Examples of a Creator
       include a person, an organization, or a service. Typically, the name of a Creator
       should be used to indicate the entity.
-    type: string
-
-  data_type:
-    description: >-
-      The nature or genre of the resource. Recommended best practice is to use a controlled
-      vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file
-      format, physical medium, or dimensions of the resource, use the Format element.
     type: string
 
   date:

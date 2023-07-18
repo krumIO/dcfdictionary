@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_anxieties
-    backref: pb_gad_twow
+    backref: pb_gad_twos
     label: derived_from
     target_type: pb_anxiety
     multiplicity: many_to_one

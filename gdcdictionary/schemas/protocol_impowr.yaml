@@ -3,7 +3,7 @@ $schema: "http://json-schema.org/draft-04/schema#"
 id: "protocol_impowr"
 title: Protocol_Impowr
 type: object
-namespace: https://nci-crdc-demo.datacommons.io/
+namespace: https://impowrgen3.wakehealth.edu/
 category: administrative
 program: '*'
 project: '*'

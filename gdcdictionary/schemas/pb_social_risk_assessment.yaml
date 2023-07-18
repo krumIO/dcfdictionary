@@ -20,7 +20,7 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_health_economicss
+  - name: pb_health_economics
     backref: pb_social_risk_assessments
     label: derived_from
     target_type: pb_health_economics
@@ -127,5 +127,5 @@ properties:
       - Frequently
       - Always
 
-  pb_health_economicss:
+  pb_health_economics:
     $ref: "_definitions.yaml#/to_one"

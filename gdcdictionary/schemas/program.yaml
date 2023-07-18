@@ -3,7 +3,7 @@ $schema: "http://json-schema.org/draft-04/schema#"
 id: "program"
 title: Program
 type: object
-namespace: null
+namespace: https://impowrgen3.wakehealth.edu/
 category: administrative
 program: '*'
 project: '*'

@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: patient_baselines
-    backref: pb_health_economicss
+    backref: pb_health_economics
     label: derived_from
     target_type: patient_baseline
     multiplicity: many_to_one

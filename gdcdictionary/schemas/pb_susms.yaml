@@ -21,7 +21,7 @@ systemProperties:
 
 links:
   - name: pb_stigma_discriminations
-    backref: pb_susmss
+    backref: pb_susms
     label: derived_from
     target_type: pb_stigma_discrimination
     multiplicity: many_to_one

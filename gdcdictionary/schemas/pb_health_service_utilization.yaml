@@ -20,7 +20,7 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_health_economicss
+  - name: pb_health_economics
     backref: pb_health_service_utilizations
     label: derived_from
     target_type: pb_health_economics
@@ -365,5 +365,5 @@ properties:
       or parole officer?
     type: string
 
-  pb_health_economicss:
+  pb_health_economics:
     $ref: "_definitions.yaml#/to_one"
