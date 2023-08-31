@@ -20,10 +20,10 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: protocols_impowr
+  - name: protocols
     backref: participants
     label: derived_from
-    target_type: protocol_impowr
+    target_type: protocol
     multiplicity: many_to_one
     required: true
 
@@ -44,5 +44,5 @@ properties:
       Placeholder property.
     type: string
 
-  protocols_impowr:
+  protocols:
     $ref: "_definitions.yaml#/to_one"

@@ -20,10 +20,10 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: patient_baselines
+  - name: provider_baselines
     backref: pb_implementation_sciences
     label: derived_from
-    target_type: patient_baseline
+    target_type: provider_baseline
     multiplicity: many_to_one
     required: true
 
@@ -39,5 +39,5 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
-  patient_baselines:
+  provider_baselines:
     $ref: "_definitions.yaml#/to_one"

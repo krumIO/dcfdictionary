@@ -1,7 +1,7 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
-id: "protocol_impowr"
-title: Protocol_Impowr
+id: "protocol"
+title: Protocol
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: administrative
@@ -23,7 +23,7 @@ systemProperties:
 
 links:
   - name: studies
-    backref: protocols_impowr
+    backref: protocols
     label: derived_from
     target_type: study
     multiplicity: many_to_many
