@@ -8,7 +8,10 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline MMSPSS characteristics
+  This data describes the patient baseline social support based on data collected
+  from a modified, Multidimensional Scale of Perceived Social Support Supplemental
+  Assessment used to assess perceived social support from family, friends, and significant
+  others.
 additionalProperties: false
 submittable: true
 

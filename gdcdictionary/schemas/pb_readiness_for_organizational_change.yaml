@@ -1,7 +1,7 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_readiness_for_organizational_change"
-title: Patient Baseline Readiness for Organizational Change
+title: Provider Baseline Readiness for Organizational Change
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical

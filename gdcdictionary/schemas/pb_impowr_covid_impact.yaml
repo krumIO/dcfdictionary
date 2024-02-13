@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_impowr_covid_impact"
-title: Patient Baseline IMPOWR COVID Impact
+title: Patient Baseline IMPOWR COVID
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline IMPOWR COVID impact characteristics
+  This data describes the patient baseline impact of COVID-19 on opioid use based
+  on data collected through IMPOWR about COVID-19 and Opioid use.
 additionalProperties: false
 submittable: true
 

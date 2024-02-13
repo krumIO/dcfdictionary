@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline chronic pain screening characteristics
+  This data describes the patient baseline chronic pain based on data collected about
+  pain duration and frequency.
 additionalProperties: false
 submittable: true
 

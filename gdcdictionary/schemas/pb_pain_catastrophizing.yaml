@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline pain catastrophizing characteristics
+  This data describes the patient baseline pain catastrophizing based on the Pain
+  Catastrophizing Pain Scale that measures the negative cognitive and affective pain
+  responses.
 additionalProperties: false
 submittable: true
 

@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS Depression characteristics
+  This data describes the patient baseline depression gathered from the PROMIS Depression
+  item banks assess self-reported questionnaire.
 additionalProperties: false
 submittable: true
 

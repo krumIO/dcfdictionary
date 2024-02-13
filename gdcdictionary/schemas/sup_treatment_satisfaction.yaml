@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing supplimental Treatment satisfaction
+  This data describes the patient baseline treatment satisfaction based on data collected
+  about the satisfaction of care received.
 additionalProperties: false
 submittable: true
 

@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline substance use stigma mechanism scale (SUSMS) characteristics
+  This data describes the patient baseline substance use stigma based on data collected
+  from the Substance Use Stigma Mechanism Scale (SUSMS) assesses enacted stigma, anticipated
+  stigma, and internalized stigma.
 additionalProperties: false
 submittable: true
 

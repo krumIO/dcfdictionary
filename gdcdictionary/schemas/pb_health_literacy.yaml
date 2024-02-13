@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline health Literary
+  This data describes patient baseline health literacy based on screening questions
+  from the Short Test of Functional Health Literacy in Adults (STOHFLA).
 additionalProperties: false
 submittable: true
 

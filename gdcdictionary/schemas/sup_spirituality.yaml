@@ -8,9 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient spirituality, each  of the variables / items below may be
-  something you have or have not experienced. Think about how often you have had each
-  experience rather than whether you should or should not have had these experiences.
+  This data describes the patient spirituality characteristics based on measures associated
+  with faith.
 additionalProperties: false
 submittable: true
 

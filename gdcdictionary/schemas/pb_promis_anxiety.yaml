@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS anxiety characteristics
+  This data describes the patient baseline anxiety based on data collected from the
+  PROMIS Anxiety Short 4a Form that is a screening tool used for generalized anxiety
+  disorder.
 additionalProperties: false
 submittable: true
 

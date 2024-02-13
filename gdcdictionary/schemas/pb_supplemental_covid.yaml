@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline Supplemental COVID characteristics
+  This data describes the patient baseline impact of COVID-19 based on data collected
+  through IMPOWR about COVID-19 impact and Social Determinants of Health (SDoH).
 additionalProperties: false
 submittable: true
 

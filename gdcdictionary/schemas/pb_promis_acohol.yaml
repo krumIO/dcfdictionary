@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_promis_acohol"
-title: Patient Baseline PROMIS Acohol (suppromis_alcohol_use_short_form_7a)
+title: Patient Baseline PROMIS Alcohol
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS acohol characteristics
+  This data describes the patient baseline alcohol use based on data collected with
+  the PROMIS Alcohol Use Short Form 7a.
 additionalProperties: false
 submittable: true
 

@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline pain intensity characteristics
+  This data describes the patient baseline pain intensity based on a question from
+  the PROMIS Pain Intensity Short Form 3a.
 additionalProperties: false
 submittable: true
 

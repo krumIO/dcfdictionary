@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline Depression characteristics
+  This data describes the patient baseline depression gathered from PHQ-9, PHQ-3,
+  and PROMIS Depression screenings.
 additionalProperties: false
 submittable: true
 

@@ -1,14 +1,16 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_impowr_demographics"
-title: Patient Baseline Impowr Demographics
+title: Patient Baseline IMPOWR Demographics
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline Impowr demographics
+  This data describes the patient baseline demographics based on data collected through
+  IMPOWR about demographics including gender, age marital status, income, education,
+  etc.
 additionalProperties: false
 submittable: true
 

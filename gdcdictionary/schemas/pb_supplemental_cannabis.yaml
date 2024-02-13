@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_supplemental_cannabis"
-title: Patient Baseline Supplemental Cannabis ( sup_substance_use_cannabis )
+title: Patient Baseline Supplemental Cannabis
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline supplemental cannabis characteristics
+  This data describes the patient baseline cannabis use based on data collected about
+  type of cannabis use and if there is an associated condition/symptom.
 additionalProperties: false
 submittable: true
 

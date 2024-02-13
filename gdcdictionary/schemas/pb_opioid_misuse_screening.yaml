@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_opioid_misuse_screening"
-title: Patient Baseline Opioid Misuse Screening (oud_misuse_screening_questions)
+title: Patient Baseline Opioid Misuse Screening
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline opioid misuse screening characteristics
+  This data describes the patient baseline opioid misuse based on data collected about
+  characteristics associated with opioid misuse.
 additionalProperties: false
 submittable: true
 

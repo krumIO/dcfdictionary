@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline Healthcare Utilization characteristics
+  This data describes the patients baseline healthcare utilization based on a combination
+  of healthcare utilization measures.
 additionalProperties: false
 submittable: true
 

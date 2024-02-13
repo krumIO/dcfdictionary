@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline supplemental smoking characteristics
+  This data describes the patient baseline smoking use based on data collected about
+  smoking use, frequency of use, and amount.
 additionalProperties: false
 submittable: true
 

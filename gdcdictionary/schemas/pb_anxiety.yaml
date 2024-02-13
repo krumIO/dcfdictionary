@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline anxiety characteristics
+  This data describes the patient baseline anxiety gathered from GAD-7, GAD-2, and
+  PROMIS Anxiety screenings.
 additionalProperties: false
 submittable: true
 

@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PHQ-3 characteristics
+  This data describes the patient baseline depression gathered from a multiple-choice
+  self-report inventory administered to the patient by a clinician.
 additionalProperties: false
 submittable: true
 

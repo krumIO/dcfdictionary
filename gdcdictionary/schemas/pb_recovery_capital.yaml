@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline recovery capital characteristics
+  The patients baseline recovery capital is based on data collected using the Brief
+  Assessment of Recovery Capital-10 that consists of 10 measurements of capital characteristics
+  and assets.
 additionalProperties: false
 submittable: true
 

@@ -8,7 +8,10 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline substance use characteristics
+  This data describes the patient baseline substance use based on characteristics
+  identified through the IMPOWR network, PROMIS Alcohol measures, PROMIS severity
+  of substance use measures, US AUDIT measures, AUDIT- -C measures, Opioid Misuse
+  screening, and other substance use related measures.
 additionalProperties: false
 submittable: true
 

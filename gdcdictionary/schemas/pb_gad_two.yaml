@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline GAD-2 characteristics
+  This data describes the patient baseline anxiety based on data collected from the
+  Generalized Anxiety Disorder (GAD-2) Form that is a modified version of GAD-7 incorporating
+  the first two questions.
 additionalProperties: false
 submittable: true
 

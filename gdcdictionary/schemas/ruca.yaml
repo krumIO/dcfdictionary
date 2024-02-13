@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline RUCA
+  This data describes the patient baseline rurality based on the census tracts or
+  zip codes in the Rural-urban commuting area (RUCA).
 additionalProperties: false
 submittable: true
 

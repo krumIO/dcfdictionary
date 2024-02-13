@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline BPI characteristics
+  This data describes the patient baseline pain based on data collected from the Brief
+  Pain Inventory Assessment that assesses the severity of pain and its impact on functioning.
 additionalProperties: false
 submittable: true
 

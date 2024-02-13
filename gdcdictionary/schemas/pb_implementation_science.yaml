@@ -1,7 +1,7 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_implementation_science"
-title: Patient Baseline Implementation Science
+title: Provider Baseline Implementation Science
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical

@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline sleep duration characteristics
+  This data describes the patient baseline sleep based on data collected about sleep
+  duration.
 additionalProperties: false
 submittable: true
 

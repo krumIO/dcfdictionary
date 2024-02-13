@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_supplemental_narcan"
-title: Patient Baseline Supplemental Narcan ( supnarcan )
+title: Patient Baseline Supplemental Narcan
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline supplemental narcan characteristics
+  This data describes the patient baseline Narcan use based on data collected about
+  the administration of Narcan.
 additionalProperties: false
 submittable: true
 

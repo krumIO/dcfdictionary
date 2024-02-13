@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PTSD supplemental PCL-5 characteristics
+  This data describes the patient baseline PTSD based on the 20-item PTSD Checklist
+  for DSM-5 that assesses the presence and severity of PTSD symptoms.
 additionalProperties: false
 submittable: true
 

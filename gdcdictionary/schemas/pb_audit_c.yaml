@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline AUDIT-C characteristics
+  This data describes the patient baseline alcohol use based on data collected using
+  the Alcohol Use Disorders Identification Test (AUDIT-C) is a modified version of
+  US AUDIT incorporating the first 3 questions.
 additionalProperties: false
 submittable: true
 

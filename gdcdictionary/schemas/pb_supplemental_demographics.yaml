@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline supplemental demographics
+  This data describes the patient baseline demographics based on data collected about
+  frequency of employment and employment benefits.
 additionalProperties: false
 submittable: true
 

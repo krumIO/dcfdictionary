@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline michigan body map characteristics
+  This data describes the patient baseline pain based on data collected about the
+  pain location.
 additionalProperties: false
 submittable: true
 

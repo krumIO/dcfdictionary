@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS social functioning characteristics
+  This data describes the patient baseline social functioning based on data collected
+  from the PROMIS Ability to participate in social roles and activities 4a.
 additionalProperties: false
 submittable: true
 

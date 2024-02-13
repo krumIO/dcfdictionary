@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline IMPOWR overdose screening characteristics
+  This data describes the patient baseline overdose history based on data collected
+  through IMPOWR about frequency of naloxone administration and substance that caused
+  overdose.
 additionalProperties: false
 submittable: true
 

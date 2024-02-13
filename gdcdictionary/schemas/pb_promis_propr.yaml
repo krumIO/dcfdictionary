@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS PROPr characteristics
+  The patient baseline is based on data collected using the PROPr questionnaire that
+  combines scores from 7 PROMIS domains into a single preference-based score (also
+  called a health utility score) to measure QALYs.
 additionalProperties: false
 submittable: true
 

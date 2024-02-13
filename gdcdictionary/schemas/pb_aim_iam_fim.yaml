@@ -1,7 +1,7 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_aim_iam_fim"
-title: Patient Baseline AIM IAM FIM
+title: Provider Baseline AIM IAM FIM
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical

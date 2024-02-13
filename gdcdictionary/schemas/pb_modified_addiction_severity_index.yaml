@@ -1,14 +1,15 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_modified_addiction_severity_index"
-title: Patient Baseline Modified Addiction Severity Index
+title: Patient Baseline Modified Addiction Severity
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline modified addiction severity index characteristics
+  This data describes the patient baseline addiction severity based on data collected
+  about type of opioid, frequency of use, and route of administration.
 additionalProperties: false
 submittable: true
 

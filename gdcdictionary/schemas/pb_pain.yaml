@@ -8,7 +8,10 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline pain characteristics
+  This data describes the patients baseline pain characteristics based on multiple
+  pain assessments including, PROMIS pain interference, PEG, PGIC, brief pain inventory
+  characteristics, chronic pain screening, pain catastrophizing and the Michigan Body
+  Map.
 additionalProperties: false
 submittable: true
 

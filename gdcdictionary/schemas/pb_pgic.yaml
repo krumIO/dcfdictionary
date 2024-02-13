@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PGIC characteristics
+  This data describes the patient baseline impression of the effectiveness of pain
+  treatment based on data collected from the self-reported measures from the Patient
+  Global Impression of Change (PGIC).
 additionalProperties: false
 submittable: true
 

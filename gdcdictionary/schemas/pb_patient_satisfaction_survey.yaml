@@ -1,7 +1,7 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_patient_satisfaction_survey"
-title: Patient Baseline Patient Satisfaction Survey
+title: Provider Baseline Patient Satisfaction Survey
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
@@ -130,9 +130,9 @@ properties:
       Please rate how helpful each of the following has been for you.. Medication
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpshlptalkmd:
@@ -140,9 +140,9 @@ properties:
       Talking about problems with the [doctor]
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpshlptalksocial:
@@ -150,9 +150,9 @@ properties:
       Talking about problems with the [social worker/nurse/etc]
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpshlptreatpatient:
@@ -160,9 +160,9 @@ properties:
       Being treated like a patient instead of a "drug addict
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpshlprefna:
@@ -170,9 +170,9 @@ properties:
       Referral to Narcotics Anonymous
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpshlpmondrguse:
@@ -180,9 +180,9 @@ properties:
       Monitoring of drug use
     enum:
       - Did not help at all
-      - "2"
+      - N/A
       - Somewhat helpful
-      - "4"
+      - N/A
       - Very helpful
 
   bpsstaffresponsive:

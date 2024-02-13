@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS sleep characteristics
+  This data describes the patient baseline sleep based on data collected from the
+  PROMIS Sleep Disturbance Short Form used to assess sleep quality.
 additionalProperties: false
 submittable: true
 

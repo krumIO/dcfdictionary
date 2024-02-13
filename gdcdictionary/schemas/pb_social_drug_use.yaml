@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline social drug use characteristics
+  This data describes the patient baseline social drug use based on data collected
+  about social support available in the community.
 additionalProperties: false
 submittable: true
 

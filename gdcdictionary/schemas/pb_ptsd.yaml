@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PTSD characteristics
+  This data describes the patients baseline PTSD characteristics based on the PCL-5
+  assessment and Primary care PTSD screening.
 additionalProperties: false
 submittable: true
 

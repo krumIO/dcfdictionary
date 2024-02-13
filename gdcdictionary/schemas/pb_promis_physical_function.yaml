@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS physical function characteristics
+  This data describes the patient baseline physical function associated with pain
+  based on PROMIS Physical Function measures.
 additionalProperties: false
 submittable: true
 

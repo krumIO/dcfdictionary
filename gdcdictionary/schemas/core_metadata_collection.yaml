@@ -31,6 +31,8 @@ required:
   - submitter_id
   - type
   - projects
+  - file_size
+  - md5sum
 
 uniqueKeys:
   - [id]

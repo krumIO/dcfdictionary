@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS fatigue characteristics
+  This data describes the patient baseline fatigue based on questions the PROMIS Fatigue
+  Short Form 4a used to assess level of fatigue.
 additionalProperties: false
 submittable: true
 

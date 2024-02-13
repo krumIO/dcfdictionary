@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PEG characteristics
+  This data describes the patient baseline pain interference and intensity based on
+  the PEG (Pain, Enjoyment, and General Activity) scale.
 additionalProperties: false
 submittable: true
 

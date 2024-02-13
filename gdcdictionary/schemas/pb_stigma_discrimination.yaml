@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline stigma / discrimination characteristics
+  This data describes the patient baseline impact from stigma/discrimination based
+  on characteristics identified through the IMPOWR network, Substance use stigma mechanism,
+  and supplemental treatment satisfaction assessment.
 additionalProperties: false
 submittable: true
 

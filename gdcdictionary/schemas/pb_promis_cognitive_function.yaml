@@ -8,7 +8,9 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline PROMIS cognitive function characteristics
+  The patient baseline cognitive function is based on data collected using the PROMIS
+  Cognitive Function questionnaire that consists of questions about patient–perceived
+  cognitive abilities.
 additionalProperties: false
 submittable: true
 

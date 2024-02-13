@@ -8,7 +8,8 @@ category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing patient baseline IMPOWR perceived discrimination characteristics
+  This data describes the patient baseline perceived discrimination based on data
+  collected about substance use, sexual orientation, and race/ethnicity.
 additionalProperties: false
 submittable: true
 
