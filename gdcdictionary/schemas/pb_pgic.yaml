@@ -53,15 +53,5 @@ properties:
       - Much worse
       - Very much worse
 
-  pcqpainawfulovrwhlmscl:
-    description: >-
-      It's awful and I feel that it overwhelms me
-    enum:
-      - not at all
-      - to a slight degree
-      - to a moderate degree
-      - to a great degree
-      - all the time
-
   pb_pains:
     $ref: "_definitions.yaml#/to_one"

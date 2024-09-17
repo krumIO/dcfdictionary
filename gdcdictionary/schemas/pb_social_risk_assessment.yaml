@@ -99,35 +99,5 @@ properties:
       to sleep or slept in a shelter (including now)?
     type: string
 
-  bpsclinicprompt:
-    description: >-
-      Prompt Service
-    enum:
-      - Never
-      - Seldom
-      - Sometimes
-      - Frequently
-      - Always
-
-  bpsclinicconvenient:
-    description: >-
-      Convenient appointments
-    enum:
-      - Never
-      - Seldom
-      - Sometimes
-      - Frequently
-      - Always
-
-  bpscliniccourteous:
-    description: >-
-      Courteous staff
-    enum:
-      - Never
-      - Seldom
-      - Sometimes
-      - Frequently
-      - Always
-
   pb_health_economics:
     $ref: "_definitions.yaml#/to_one"

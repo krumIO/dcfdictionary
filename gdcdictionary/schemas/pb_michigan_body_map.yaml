@@ -40,46 +40,185 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
-  mbodycp:
+  mbodycp___0:
     description: >-
-      @IMAGEMAP=MBODY
-    enum:
-      - MFace
-      - MRJaw
-      - MLJaw
-      - MRChest
-      - MLChest
-      - MRUpArm
-      - MLUpArM
-      - MRElbw
-      - MLElbw
-      - MRLowArm
-      - MLLowArm
-      - MRHand
-      - MLHand
-      - MAbdomen
-      - MPelvis
-      - MRGroin
-      - MLGroin
-      - MRUpLeg
-      - MLUpLeg
-      - MRKnee
-      - MLKnee
-      - MRLowLeg
-      - MLLowLeg
-      - MRFoot
-      - MLFoot
-      - MHead
-      - MNeck
-      - MLShldr
-      - MRShldr
-      - MUpBack
-      - MLowBack
-      - MLHip
-      - MRHip
-      - MLBttck
-      - MRBttck
-      - Mnone
+      IMAGEMAP=MBODY - MFace
+    type: boolean
+
+  mbodycp___1:
+    description: >-
+      IMAGEMAP=MBODY - MRJaw
+    type: boolean
+
+  mbodycp___2:
+    description: >-
+      IMAGEMAP=MBODY - MLJaw
+    type: boolean
+
+  mbodycp___3:
+    description: >-
+      IMAGEMAP=MBODY - MRChest
+    type: boolean
+
+  mbodycp___4:
+    description: >-
+      IMAGEMAP=MBODY - MLChest
+    type: boolean
+
+  mbodycp___5:
+    description: >-
+      IMAGEMAP=MBODY - MRUpArm
+    type: boolean
+
+  mbodycp___6:
+    description: >-
+      IMAGEMAP=MBODY - MLUpArM
+    type: boolean
+
+  mbodycp___7:
+    description: >-
+      IMAGEMAP=MBODY - MRElbw
+    type: boolean
+
+  mbodycp___8:
+    description: >-
+      IMAGEMAP=MBODY - MLElbw
+    type: boolean
+
+  mbodycp___9:
+    description: >-
+      IMAGEMAP=MBODY - MRLowArm
+    type: boolean
+
+  mbodycp___10:
+    description: >-
+      IMAGEMAP=MBODY - MLLowArm
+    type: boolean
+
+  mbodycp___11:
+    description: >-
+      IMAGEMAP=MBODY - MRHand
+    type: boolean
+
+  mbodycp___12:
+    description: >-
+      IMAGEMAP=MBODY - MLHand
+    type: boolean
+
+  mbodycp___13:
+    description: >-
+      IMAGEMAP=MBODY - MAbdomen
+    type: boolean
+
+  mbodycp___14:
+    description: >-
+      IMAGEMAP=MBODY - MPelvis
+    type: boolean
+
+  mbodycp___15:
+    description: >-
+      IMAGEMAP=MBODY - MRGroin
+    type: boolean
+
+  mbodycp___16:
+    description: >-
+      IMAGEMAP=MBODY - MLGroin
+    type: boolean
+
+  mbodycp___17:
+    description: >-
+      IMAGEMAP=MBODY - MRUpLeg
+    type: boolean
+
+  mbodycp___18:
+    description: >-
+      IMAGEMAP=MBODY - MLUpLeg
+    type: boolean
+
+  mbodycp___19:
+    description: >-
+      IMAGEMAP=MBODY - MRKnee
+    type: boolean
+
+  mbodycp___20:
+    description: >-
+      IMAGEMAP=MBODY - MLKnee
+    type: boolean
+
+  mbodycp___21:
+    description: >-
+      IMAGEMAP=MBODY - MRLowLeg
+    type: boolean
+
+  mbodycp___22:
+    description: >-
+      IMAGEMAP=MBODY - MLLowLeg
+    type: boolean
+
+  mbodycp___23:
+    description: >-
+      IMAGEMAP=MBODY - MRFoot
+    type: boolean
+
+  mbodycp___24:
+    description: >-
+      IMAGEMAP=MBODY - MLFoot
+    type: boolean
+
+  mbodycp___25:
+    description: >-
+      IMAGEMAP=MBODY - MHead
+    type: boolean
+
+  mbodycp___26:
+    description: >-
+      IMAGEMAP=MBODY - MNeck
+    type: boolean
+
+  mbodycp___27:
+    description: >-
+      IMAGEMAP=MBODY - MLShldr
+    type: boolean
+
+  mbodycp___28:
+    description: >-
+      IMAGEMAP=MBODY - MRShldr
+    type: boolean
+
+  mbodycp___29:
+    description: >-
+      IMAGEMAP=MBODY - MUpBack
+    type: boolean
+
+  mbodycp___30:
+    description: >-
+      IMAGEMAP=MBODY - MLowBack
+    type: boolean
+
+  mbodycp___31:
+    description: >-
+      IMAGEMAP=MBODY - MLHip
+    type: boolean
+
+  mbodycp___32:
+    description: >-
+      IMAGEMAP=MBODY - MRHip
+    type: boolean
+
+  mbodycp___33:
+    description: >-
+      IMAGEMAP=MBODY - MLBttck
+    type: boolean
+
+  mbodycp___34:
+    description: >-
+      IMAGEMAP=MBODY - MRBttck
+    type: boolean
+
+  mbodycp___35:
+    description: >-
+      IMAGEMAP=MBODY - Mnone
+    type: boolean
 
   mface:
     description: >-

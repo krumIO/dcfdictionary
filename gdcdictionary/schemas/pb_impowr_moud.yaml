@@ -47,13 +47,20 @@ properties:
       [illicit use should be excluded]
     type: string
 
-  moud_type:
+  moud_type___1:
     description: >-
-      Which MOUD have you received?
-    enum:
-      - Buprenorphine
-      - Methadone
-      - Naltrexone
+      Which MOUD have you received? Buprenorphine
+    type: boolean
+
+  moud_type___2:
+    description: >-
+      Which MOUD have you received? Methadone
+    type: boolean
+
+  moud_type___3:
+    description: >-
+      Which MOUD have you received? Naltrexone
+    type: boolean
 
   moudbup:
     description: >-

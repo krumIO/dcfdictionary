@@ -167,16 +167,36 @@ properties:
       a mental health disorder? [Illicit use should be excluded]
     type: string
 
-  mh_meds:
+  mh_meds___1:
     description: >-
-      Medication
-    enum:
-      - SSRIs? (e.g., sertraline, citalopram, fluoxetine, paroxetine)
-      - SNRIs? (e.g., venlafaxine, duloxetine)
-      - Mood Stabilizers? (e.g., depakote, lamotrigine, lithium)
-      - Antipsychotics? (e.g., quetiapine, risperidone, aripiprazole, olanzapine)
-      - Benzodiazepines? (e.g., clonazepam, diazepam, lorazepam)
-      - Other
+      Medication - SSRIs? (e.g., sertraline, citalopram, fluoxetine, paroxetine)
+    type: boolean
+
+  mh_meds___2:
+    description: >-
+      Medication - SNRIs? (e.g., venlafaxine, duloxetine) Mood Stabilizers? (e.g.,
+      depakote, lamotrigine, lithium)
+    type: boolean
+
+  mh_meds___3:
+    description: >-
+      Medication - Mood Stabilizers? (e.g., depakote, lamotrigine, lithium)
+    type: boolean
+
+  mh_meds___4:
+    description: >-
+      Medication - Antipsychotics? (e.g., quetiapine, risperidone, aripiprazole, olanzapine)
+    type: boolean
+
+  mh_meds___5:
+    description: >-
+      Medication - Benzodiazepines? (e.g., clonazepam, diazepam, lorazepam)
+    type: boolean
+
+  mh_meds___6:
+    description: >-
+      Medication - Other
+    type: boolean
 
   utilmedssri:
     description: >-

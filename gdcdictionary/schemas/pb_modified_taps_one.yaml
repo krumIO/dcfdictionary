@@ -66,17 +66,5 @@ properties:
       - Less Than Monthly
       - Never
 
-  cigperdayscl:
-    description: >-
-      On the average, how many cigarettes do you smoke a day?
-    type: string
-
-  ecigusedays:
-    description: >-
-      In the past 30 days, how many days have you used an electronic nicotine product?
-      (Electronic nicotine products include e-cigarettes, vape pens, personal vaporizers
-      and mods, e-cigars, e-pipes, e-hookahs, and hookah pens.)?
-    type: string
-
   pb_substance_uses:
     $ref: "_definitions.yaml#/to_one"
