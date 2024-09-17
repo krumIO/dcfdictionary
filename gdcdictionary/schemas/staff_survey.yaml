@@ -50,10 +50,45 @@ properties:
       Are you of Hispanic, Latino, or Spanish origin?
     enum: []
 
-  impd_staff_race:
+  impd_staff_race___1:
     description: >-
-      What is your race?
-    enum: []
+      What is your race? White
+    type: boolean
+
+  impd_staff_race___2:
+    description: >-
+      What is your race? Black/African American
+    type: boolean
+
+  impd_staff_race___3:
+    description: >-
+      What is your race? American Indian or Alaska Native
+    type: boolean
+
+  impd_staff_race___4:
+    description: >-
+      What is your race? Asian
+    type: boolean
+
+  impd_staff_race___5:
+    description: >-
+      What is your race? Native Hawaiian or Other Pacific Islander
+    type: boolean
+
+  impd_staff_race___6:
+    description: >-
+      What is your race? Some other race
+    type: boolean
+
+  impd_staff_race___7:
+    description: >-
+      What is your race? Unknown
+    type: boolean
+
+  impd_staff_race___8:
+    description: >-
+      What is your race? Prefer not to answer
+    type: boolean
 
   impdrace_staff_white:
     description: >-
@@ -100,10 +135,57 @@ properties:
       Some other race (SPECIFY)
     type: string
 
-  impdgenid_staff:
+  impdgenid_staff___1:
     description: >-
-      Gender Identity - Do you think of yourself as . . .
-    enum: []
+      Gender Identity - Do you think of yourself as . . .Male
+    type: boolean
+
+  impdgenid_staff___2:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Female
+    type: boolean
+
+  impdgenid_staff___3:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Transgender man/trans man/female-to-male
+      (FTM)
+    type: boolean
+
+  impdgenid_staff___4:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Transgender woman/trans woman/male-to-female
+      (MTF)
+    type: boolean
+
+  impdgenid_staff___5:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Genderqueer
+    type: boolean
+
+  impdgenid_staff___6:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Nonbinary
+    type: boolean
+
+  impdgenid_staff___7:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Agender
+    type: boolean
+
+  impdgenid_staff___8:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Gender Fluid
+    type: boolean
+
+  impdgenid_staff___9:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Some other gender
+    type: boolean
+
+  impdgenid_staff___10:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Prefer not to answer
+    type: boolean
 
   impdgenid_staff_male:
     description: >-
@@ -170,10 +252,30 @@ properties:
       Please describe:
     type: string
 
-  imp_staff_physspec:
+  imp_staff_physspec___1:
     description: >-
-      What is your physician specialty?
-    enum: []
+      What is your physician specialty? Primary care/Internal Medicine/Family Medicine
+    type: boolean
+
+  imp_staff_physspec___2:
+    description: >-
+      What is your physician specialty? Addiction Medicine
+    type: boolean
+
+  imp_staff_physspec___3:
+    description: >-
+      What is your physician specialty? Pain Management
+    type: boolean
+
+  imp_staff_physspec___4:
+    description: >-
+      What is your physician specialty? Psychiatry or Addiction Psychiatry
+    type: boolean
+
+  imp_staff_physspec___5:
+    description: >-
+      What is your physician specialty? Other (please specify)
+    type: boolean
 
   imp_staff_physspec_other:
     description: >-

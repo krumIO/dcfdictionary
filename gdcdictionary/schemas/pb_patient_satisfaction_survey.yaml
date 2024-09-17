@@ -39,20 +39,40 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
+  bpsclinicprompt:
+    description: >-
+      Prompt Service
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Frequently
+      - Always
+
+  bpsclinicconvenient:
+    description: >-
+      Convenient appointments
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Frequently
+      - Always
+
+  bpscliniccourteous:
+    description: >-
+      Courteous staff
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Frequently
+      - Always
+
   bpscliniccomfort:
     description: >-
       Please rate the (CLINIC NAME HERE) with respect to the following items: Clinic
       comfort
-    enum:
-      - Poor
-      - Fair
-      - Good
-      - Very good
-      - Excellent
-
-  bpsclinicqualcare:
-    description: >-
-      Quality of care
     enum:
       - Poor
       - Fair
@@ -70,64 +90,39 @@ properties:
       - Very good
       - Excellent
 
-  bpsstaffunderstand:
+  bpsclinicqualcare:
     description: >-
-      How well do the clinical staff seem to understand your problems with pain [and
-      opioid use disorder]?
+      Quality of care
     enum:
-      - Do not understand at all
-      - Understand a little bit
-      - Somewhat understand
-      - Understand a lot
-      - Completely understand
-
-  bpsstaffknowledge:
-    description: >-
-      How competent and knowledgeable do the clinical staff seem to be about treating
-      your pain [and opioid use disorder]?
-    enum:
-      - Don't know anything
-      - Know a little bit
-      - I'm not sure
-      - Know quite a lot
-      - Seem to know everything
-
-  bpsstaffinteresthelp:
-    description: >-
-      How interested is the clinical staff in helping you with your pain [and opioid
-      use disorder]?
-    enum:
-      - Very uninterested
-      - Uninterested
-      - Neither interested nor uninterested
-      - Interested
-      - Very interested
-
-  bpsrecommend:
-    description: >-
-      If a friend needed similar treatment for pain and opioid use disorder, would
-      you recommend this clinic to them?
-    enum:
-      - Definitely not
-      - Probably not
-      - I'm not sure
-      - Probably yes
-      - Definitely yes
-
-  bpssvchelped:
-    description: >-
-      Have the services you received helped you deal more effectively with your pain
-      and opioid use disorder?
-    enum:
-      - No, made things worse
-      - No, didn't help
-      - I'm not sure
-      - Yes, helped a little
-      - Yes, helped a lot
+      - Poor
+      - Fair
+      - Good
+      - Very good
+      - Excellent
 
   bpshlpmeds:
     description: >-
       Please rate how helpful each of the following has been for you.. Medication
+    enum:
+      - Did not help at all
+      - N/A
+      - Somewhat helpful
+      - N/A
+      - Very helpful
+
+  bpshlpmondrguse:
+    description: >-
+      Monitoring of drug use
+    enum:
+      - Did not help at all
+      - N/A
+      - Somewhat helpful
+      - N/A
+      - Very helpful
+
+  bpshlprefna:
+    description: >-
+      Referral to Narcotics Anonymous
     enum:
       - Did not help at all
       - N/A
@@ -165,35 +160,46 @@ properties:
       - N/A
       - Very helpful
 
-  bpshlprefna:
+  bpslikeleasttxt:
     description: >-
-      Referral to Narcotics Anonymous
-    enum:
-      - Did not help at all
-      - N/A
-      - Somewhat helpful
-      - N/A
-      - Very helpful
+      What do you like the least about receiving [intervention] at this [clinic/hospital]?
+    type: string
 
-  bpshlpmondrguse:
+  bpslikemosttxt:
     description: >-
-      Monitoring of drug use
-    enum:
-      - Did not help at all
-      - N/A
-      - Somewhat helpful
-      - N/A
-      - Very helpful
+      What do you like the most about receiving [intervention] at this [clinic/hospital]?
+    type: string
 
-  bpsstaffresponsive:
+  bpspatientinteraction:
     description: >-
-      How responsive was the clinical staff to your requests for treatment?
+      Please rate the [clinic/hospital] with respect to interaction with other patients.
     enum:
-      - Very unresponsive
-      - Somewhat unresponsive
-      - Neither responsive nor unresponsive
-      - Somewhat responsive
-      - Very responsive
+      - Poor
+      - Fair
+      - Good
+      - Very good
+      - Excellent
+
+  bpsrecommend:
+    description: >-
+      If a friend needed similar treatment for pain and opioid use disorder, would
+      you recommend this clinic to them?
+    enum:
+      - Definitely not
+      - Probably not
+      - I'm not sure
+      - Probably yes
+      - Definitely yes
+
+  bpssatisftreatment:
+    description: >-
+      How satisfied are you with the treatment that you have received in this [clinic/hospital]?
+    enum:
+      - Very dissatisfied
+      - Somewhat dissatisfied
+      - Neither satisfied nor dissatisfied
+      - Somewhat satisfied
+      - Very satisfied
 
   bpsstaffconcern:
     description: >-
@@ -205,35 +211,59 @@ properties:
       - Somewhat concerned
       - Very concerned
 
-  bpslikemosttxt:
+  bpsstaffinteresthelp:
     description: >-
-      What do you like the most about receiving [intervention] at this [clinic/hospital]?
-    type: string
-
-  bpslikeleasttxt:
-    description: >-
-      What do you like the least about receiving [intervention] at this [clinic/hospital]?
-    type: string
-
-  bpssatisftreatment:
-    description: >-
-      How satisfied are you with the treatment that you have received in this [clinic/hospital]?
+      How interested is the clinical staff in helping you with your pain [and opioid
+      use disorder]?
     enum:
-      - Very dissastisfied
-      - Somewhat dissatisfied
-      - Neither satisfied nor dissatisfied
-      - Somewhat satisfied
-      - Very satisfied
+      - Very uninterested
+      - Uninterested
+      - Neither interested nor uninterested
+      - Interested
+      - Very interested
 
-  bpspatientinteraction:
+  bpsstaffknowledge:
     description: >-
-      Please rate the [clinic/hospital] with respect to interaction with other patients.
+      How competent and knowledgeable do the clinical staff seem to be about treating
+      your pain [and opioid use disorder]?
     enum:
-      - Poor
-      - Fair
-      - Good
-      - Very good
-      - Excellent
+      - Don't know anything
+      - Know a little bit
+      - I'm not sure
+      - Know quite a lot
+      - Seem to know everything
+
+  bpsstaffresponsive:
+    description: >-
+      How responsive was the clinical staff to your requests for treatment?
+    enum:
+      - Very unresponsive
+      - Somewhat unresponsive
+      - Neither responsive nor unresponsive
+      - Somewhat responsive
+      - Very responsive
+
+  bpsstaffunderstand:
+    description: >-
+      How well do the clinical staff seem to understand your problems with pain [and
+      opioid use disorder]?
+    enum:
+      - Do not understand at all
+      - Understand a little bit
+      - Somewhat understand
+      - Understand a lot
+      - Completely understand
+
+  bpssvchelped:
+    description: >-
+      Have the services you received helped you deal more effectively with your pain
+      and opioid use disorder?
+    enum:
+      - No, made things worse
+      - No, didn't help
+      - I'm not sure
+      - Yes, helped a little
+      - Yes, helped a lot
 
   overall_patient_satsifaction_score:
     description: >-

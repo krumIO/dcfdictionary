@@ -40,26 +40,101 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
-  medical_marijuana:
+  medical_marijuana___1:
     description: >-
       Which of the following symptoms/conditions do you treat with medical cannabis?
-    enum:
-      - Pain
-      - Inflammation
-      - Muscle Spasm
-      - Nausea
-      - Lack of appetite
-      - Seizure
-      - Problems Sleeping
-      - Depression
-      - Anxiety
-      - PTSD
-      - ADHD
-      - Bipolar
-      - Schizophrenia
-      - Opioid Use Disorder
-      - Substance use Disorder
-      - Other
+      Pain
+    type: boolean
+
+  medical_marijuana___2:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Inflammation
+    type: boolean
+
+  medical_marijuana___3:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Muscle Spasm
+    type: boolean
+
+  medical_marijuana___4:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Nausea
+    type: boolean
+
+  medical_marijuana___5:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Lack of appetite
+    type: boolean
+
+  medical_marijuana___6:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Seizure
+    type: boolean
+
+  medical_marijuana___7:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Problems Sleeping
+    type: boolean
+
+  medical_marijuana___8:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Depression
+    type: boolean
+
+  medical_marijuana___9:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Anxiety
+    type: boolean
+
+  medical_marijuana___10:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      PTSD
+    type: boolean
+
+  medical_marijuana___11:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      ADHD
+    type: boolean
+
+  medical_marijuana___12:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Bipolar
+    type: boolean
+
+  medical_marijuana___13:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Schizophrenia
+    type: boolean
+
+  medical_marijuana___14:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Opioid Use Disorder
+    type: boolean
+
+  medical_marijuana___15:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Substance use Disorder
+    type: boolean
+
+  medical_marijuana___16:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis?
+      Other
+    type: boolean
 
   su_canna_pain:
     description: >-

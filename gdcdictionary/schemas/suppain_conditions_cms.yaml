@@ -40,44 +40,230 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
-  imp_paindx:
+  imp_paindx___1:
     description: >-
       We are interested in finding out about pain conditions you have been diagnosed
       with/personally experienced. Please select all you have ever been diagnosed
-      with or experienced:
-    enum:
-      - Low back pain (chronic pain)
-      - Chronic neck pain
-      - Migraine
-      - Osteoarthritis
-      - Fibromyalgia
-      - Sickle cell disease
-      - Complex regional pain syndrome
-      - Cancer pain
-      - Shingles (Herpes Zoster)
-      - IBS (Irritable Bowel Syndrome)
-      - Trigeminal Neuralgia
-      - HIV/AIDS pain
-      - Viral hepatitis pain
-      - Vulvodynia
-      - Post-surgical pain
-      - Interstitial Cystitis (Urological Chronic Pelvic Pain Syndrome)
-      - Chronic fatigue syndrome
-      - Pregnancy related back pain
-      - TMJ (Temporomandibular joint disorder)
-      - Endometriosis
-      - Chronic pelvic pain
-      - Diabetic peripheral neuropathy
-      - Rheumatoid arthritis
-      - Lupus arthritis
-      - Other inflammatory arthritides
-      - Phantom limb pain
-      - Other neuropathy
-      - Myofascial pain
-      - Chronic pain syndrome
-      - Chronic widespread pain
-      - Orofacial (dental), dental abscess, or chronic tooth pain
-      - Tension headache
+      with or experienced: Chronic low back pain
+    type: boolean
+
+  imp_paindx___2:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Chronic neck pain
+    type: boolean
+
+  imp_paindx___3:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Migraine
+    type: boolean
+
+  imp_paindx___4:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Osteoarthritis
+    type: boolean
+
+  imp_paindx___5:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Fibromyalgia
+    type: boolean
+
+  imp_paindx___6:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Sickle cell disease
+    type: boolean
+
+  imp_paindx___7:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: CRPS
+    type: boolean
+
+  imp_paindx___8:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Cancer pain
+    type: boolean
+
+  imp_paindx___9:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Shingles (Herpes Zoster)
+    type: boolean
+
+  imp_paindx___10:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced:  IBS (Irritable Bowel Syndrome)
+    type: boolean
+
+  imp_paindx___11:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Trigeminal Neuralgia
+    type: boolean
+
+  imp_paindx___12:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: HIV/AIDS pain
+    type: boolean
+
+  imp_paindx___13:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Viral hepatitis pain
+    type: boolean
+
+  imp_paindx___14:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Vulvodynia
+    type: boolean
+
+  imp_paindx___15:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Post-surgical pain
+    type: boolean
+
+  imp_paindx___16:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Interstitial Cystitis (Urological Chronic Pelvic Pain Syndrome)
+    type: boolean
+
+  imp_paindx___17:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Chronic fatigue syndrome
+    type: boolean
+
+  imp_paindx___18:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Pregnancy related back pain
+    type: boolean
+
+  imp_paindx___19:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: TMJ (Temporomandibular joint disorder)
+    type: boolean
+
+  imp_paindx___20:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Endometriosis
+    type: boolean
+
+  imp_paindx___21:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Chronic pelvic pain
+    type: boolean
+
+  imp_paindx___22:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Diabetic peripheral neuropathy
+    type: boolean
+
+  imp_paindx___23:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Rheumatoid arthritis
+    type: boolean
+
+  imp_paindx___24:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Lupus arthritis
+    type: boolean
+
+  imp_paindx___25:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Other inflammatory arthritides
+    type: boolean
+
+  imp_paindx___26:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Phantom limb pain
+    type: boolean
+
+  imp_paindx___27:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Other neuropathy
+    type: boolean
+
+  imp_paindx___28:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Myofascial pain
+    type: boolean
+
+  imp_paindx___29:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Chronic pain syndrome
+    type: boolean
+
+  imp_paindx___30:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Chronic widespread pain
+    type: boolean
+
+  imp_paindx___31:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Orofacial (dental) pain, dental abscess, or chronic tooth
+      pain
+    type: boolean
+
+  imp_paindx___32:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: Tension headache
+    type: boolean
 
   copcs_clbp_diagnosis:
     description: >-
@@ -239,16 +425,35 @@ properties:
       Tension headache
     type: number
 
-  oa_joint:
+  oa_joint___1:
     description: >-
-      Where is your osteoarthritis pain located?
-    enum:
-      - shoulder
-      - knee
-      - hip
-      - ankle/foot
-      - elbow
-      - wrist
+      Where is your osteoarthritis pain located? Shoulder
+    type: boolean
+
+  oa_joint___2:
+    description: >-
+      Where is your osteoarthritis pain located? Knee
+    type: boolean
+
+  oa_joint___3:
+    description: >-
+      Where is your osteoarthritis pain located? Hip
+    type: boolean
+
+  oa_joint___4:
+    description: >-
+      Where is your osteoarthritis pain located? Ankle/foot
+    type: boolean
+
+  oa_joint___5:
+    description: >-
+      Where is your osteoarthritis pain located? Elbow
+    type: boolean
+
+  oa_joint___6:
+    description: >-
+      Where is your osteoarthritis pain located? Wrist
+    type: boolean
 
   paindx_osteo_shoulder:
     description: >-

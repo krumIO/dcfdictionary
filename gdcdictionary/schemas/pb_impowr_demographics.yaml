@@ -60,18 +60,45 @@ properties:
       - Unknown
       - Decline to answer
 
-  impd_race:
+  impd_race___1:
     description: >-
-      What is your race?
-    enum:
-      - White
-      - Black/African American
-      - American Indian or Alaska Native
-      - Asian
-      - Native Hawaiian or Other Pacific Islander
-      - Some other race
-      - Unknown
-      - Prefer not to answer
+      What is your race? - White
+    type: boolean
+
+  impd_race___2:
+    description: >-
+      What is your race? - Black/African American
+    type: boolean
+
+  impd_race___3:
+    description: >-
+      What is your race? - American Indian or Alaska Native
+    type: boolean
+
+  impd_race___4:
+    description: >-
+      What is your race? - Asian
+    type: boolean
+
+  impd_race___5:
+    description: >-
+      What is your race? - Native Hawaiian or Other Pacific Islander
+    type: boolean
+
+  impd_race___6:
+    description: >-
+      What is your race? - Some other race
+    type: boolean
+
+  impd_race___7:
+    description: >-
+      What is your race? - Unknown
+    type: boolean
+
+  impd_race___8:
+    description: >-
+      What is your race? - Prefer not to answer
+    type: boolean
 
   impdrace_white:
     description: >-
@@ -118,20 +145,57 @@ properties:
       Some other race (SPECIFY)
     type: string
 
-  impdgenid:
+  impdgenid___1:
     description: >-
-      Gender Identity - Do you think of yourself as . . .
-    enum:
-      - Male
-      - Female
-      - Transgender man/trans man/female-to-male (FTM)
-      - Transgender woman/trans woman/male-to-female (MTF)
-      - Genderqueer
-      - Nonbinary
-      - Agender
-      - Gender Fluid
-      - Some other gender
-      - Prefer not to answer
+      Gender Identity - Do you think of yourself as . . .Male
+    type: boolean
+
+  impdgenid___2:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Female
+    type: boolean
+
+  impdgenid___3:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Transgender man/trans man/female-to-male
+      (FTM)
+    type: boolean
+
+  impdgenid___4:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Transgender woman/trans woman/male-to-female
+      (MTF)
+    type: boolean
+
+  impdgenid___5:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Genderqueer
+    type: boolean
+
+  impdgenid___6:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Nonbinary
+    type: boolean
+
+  impdgenid___7:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Agender
+    type: boolean
+
+  impdgenid___8:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Gender Fluid
+    type: boolean
+
+  impdgenid___9:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Some other gender
+    type: boolean
+
+  impdgenid___10:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .Prefer not to answer
+    type: boolean
 
   impdgenid01_male:
     description: >-
@@ -204,19 +268,50 @@ properties:
       What was your sex assigned at birth? Other (specify)
     type: string
 
-  imp_sexual:
+  imp_sexual___1:
     description: >-
-      Sexual Orientation- Do you think of yourself as...
-    enum:
-      - Straight or heterosexual
-      - Lesbian or gay
-      - Bisexual
-      - Queer
-      - Pansexual
-      - Questioning
-      - Asexual
-      - Something else
-      - Prefer not to answer
+      Sexual Orientation- Do you think of yourself as... Straight or heterosexual
+    type: boolean
+
+  imp_sexual___2:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Lesbian or gay
+    type: boolean
+
+  imp_sexual___3:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Bisexual
+    type: boolean
+
+  imp_sexual___4:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Queer
+    type: boolean
+
+  imp_sexual___5:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Pansexual
+    type: boolean
+
+  imp_sexual___6:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Questioning
+    type: boolean
+
+  imp_sexual___7:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Asexual
+    type: boolean
+
+  imp_sexual___8:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Something else
+    type: boolean
+
+  imp_sexual___9:
+    description: >-
+      Sexual Orientation- Do you think of yourself as... Prefer not to answer
+    type: boolean
 
   impd_straight:
     description: >-
@@ -273,17 +368,41 @@ properties:
       Are you currently pregnant?
     type: string
 
-  imp_relat:
+  imp_relat___1:
     description: >-
-      What category best describes your current relationship status?
-    enum:
-      - Divorced
-      - Married
-      - Never married
-      - Separated
-      - Widowed
-      - Domestic partner
-      - Prefer not to answer
+      What category best describes your current relationship status? Divorced
+    type: boolean
+
+  imp_relat___2:
+    description: >-
+      What category best describes your current relationship status? Married
+    type: boolean
+
+  imp_relat___3:
+    description: >-
+      What category best describes your current relationship status? Never married
+    type: boolean
+
+  imp_relat___4:
+    description: >-
+      What category best describes your current relationship status? Separated
+    type: boolean
+
+  imp_relat___5:
+    description: >-
+      What category best describes your current relationship status? Widowed
+    type: boolean
+
+  imp_relat___6:
+    description: >-
+      What category best describes your current relationship status? Domestic partner
+    type: boolean
+
+  imp_relat___7:
+    description: >-
+      What category best describes your current relationship status? Prefer not to
+      answer
+    type: boolean
 
   impd_divorced:
     description: >-

@@ -77,23 +77,36 @@ properties:
       Approximately how much do you make per hour?
     type: string
 
-  dem_benefits:
+  dem_benefits___1:
     description: >-
       Do any of the places that you work offer you the following benefits? (MARK ALL
-      THAT APPLY)
-    enum:
-      - Health Insurance
-      - Paid time off
-      - Defined benefit plan or pension
-      - An arrangement such as a 401(k) or 403(b) plan, under which your employer
-        contributes money towards your retirement every pay period
-      - None of the above
-      - Health Insurance
-      - Paid time off
-      - Defined benefit plan or pension
-      - An arrangement such as a 401(k) or 403(b) plan, under which your employer
-        contributes money towards your retirement every pay period
-      - None of the above
+      THAT APPLY) Health Insurance
+    type: boolean
+
+  dem_benefits___2:
+    description: >-
+      Do any of the places that you work offer you the following benefits? (MARK ALL
+      THAT APPLY) Paid time off
+    type: boolean
+
+  dem_benefits___3:
+    description: >-
+      Do any of the places that you work offer you the following benefits? (MARK ALL
+      THAT APPLY) Defined benefit plan or pension
+    type: boolean
+
+  dem_benefits___4:
+    description: >-
+      Do any of the places that you work offer you the following benefits? (MARK ALL
+      THAT APPLY) An arrangement such as a 401(k) or 403(b) plan, under which your
+      employer contributes money towards your retirement every pay period
+    type: boolean
+
+  dem_benefits___5:
+    description: >-
+      Do any of the places that you work offer you the following benefits? (MARK ALL
+      THAT APPLY) None of the above
+    type: boolean
 
   impowroptdemhlthinsur:
     description: >-
@@ -131,38 +144,113 @@ properties:
       plan?
     type: string
 
-  insurance_type:
+  insurance_type___1:
     description: >-
       What kind of health insurance or health care coverage (did/do) you have? Include
       those that pay for only one type of service (such as nursing home care, accidents,
       or dental care). Exclude private plans that only provide extra cash while hospitalized.
       If you have more than one kind of health insurance, tell me all plans that you
-      have.
-    enum:
-      - Private health insurance
-      - Medicare
-      - Medigap
-      - Medicaid/Medicaid managed care plans
-      - SCHIP (CHIP/Children's Health Insurance Program)
-      - Military Health Care (Tricare/VA/CHAMP-VA)
-      - Indian Health Service
-      - State-Sponsored Health Plan/Affordable Care Act
-      - Other government program
-      - Single service plan (e.g., dental, vision, prescriptions)
-      - Other
-      - Don't Know
-      - Private health insurance
-      - Medicare
-      - Medigap
-      - Medicaid/Medicaid managed care plans
-      - SCHIP (CHIP/Children's Health Insurance Program)
-      - Military Health Care (Tricare/VA/CHAMP-VA)
-      - Indian Health Service
-      - State-Sponsored Health Plan/Affordable Care Act
-      - Other government program
-      - Single service plan (e.g., dental, vision, prescriptions)
-      - Other
-      - I don't know
+      have. Private health insurance
+    type: boolean
+
+  insurance_type___2:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Medicare
+    type: boolean
+
+  insurance_type___3:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Medigap
+    type: boolean
+
+  insurance_type___4:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Medicaid/Medicaid managed care plans
+    type: boolean
+
+  insurance_type___5:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. SCHIP (CHIP/Children's Health Insurance Program)
+    type: boolean
+
+  insurance_type___6:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Military Health Care (Tricare/VA/CHAMP-VA)
+    type: boolean
+
+  insurance_type___7:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Indian Health Service
+    type: boolean
+
+  insurance_type___8:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. State-Sponsored Health Plan/Affordable Care Act
+    type: boolean
+
+  insurance_type___9:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Other government program
+    type: boolean
+
+  insurance_type___10:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Single service plan (e.g., dental, vision, prescriptions)
+    type: boolean
+
+  insurance_type___11:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Other
+    type: boolean
+
+  insurance_type___12:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have. Don't Know
+    type: boolean
 
   impowroptdeminstype_1:
     description: >-

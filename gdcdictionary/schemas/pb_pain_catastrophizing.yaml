@@ -41,6 +41,16 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
+  pcqpainawfulovrwhlmscl:
+    description: >-
+      It's awful and I feel that it overwhelms me
+    enum:
+      - not at all
+      - to a slight degree
+      - to a moderate degree
+      - to a great degree
+      - all the time
+
   pcqfeelcantwithstandscl:
     description: >-
       I feel I can't stand it anymore

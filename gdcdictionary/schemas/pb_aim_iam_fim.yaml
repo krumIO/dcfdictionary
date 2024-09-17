@@ -176,44 +176,5 @@ properties:
       Feasibility of Intervention score
     type: number
 
-  sdmunderstand:
-    description: >-
-      Please reflect on your health care encounters regarding treatment for chronic
-      pain and OUD and complete the following items: How much effort was made to help
-      you understand your health issues?
-    enum:
-      - No effort was made
-      - A little effort was made
-      - Some effort was made
-      - A lot effort was made
-      - Every effort was made
-
-  sdmlisten:
-    description: >-
-      How much effort was made to listen to the things that matter most to you about
-      your health issues?
-    enum:
-      - No effort was made
-      - A little effort was made
-      - Some effort was made
-      - A lot effort was made
-      - Every effort was made
-
-  sdminclude:
-    description: >-
-      How much effort was made to include what matters most to you in choosing what
-      to do next?
-    enum:
-      - No effort was made
-      - A little effort was made
-      - Some effort was made
-      - A lot effort was made
-      - Every effort was made
-
-  sdmscore:
-    description: >-
-      Overall score for the IMPOWR Shared Decision Making assessment
-    type: number
-
   pb_implementation_sciences:
     $ref: "_definitions.yaml#/to_one"
