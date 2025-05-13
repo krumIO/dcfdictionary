@@ -1,0 +1,240 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+id: "pb_current_opioid_misuse_measure"
+title: current_opioid_misuse_measure
+type: object
+namespace: https://impowrgen3.wakehealth.edu/
+category: clinical
+program: '*'
+project: '*'
+description: >-
+  Describes the patient baseline opioid misuse based on a 17-item self-assessment
+  to monitor chronic pain patients on opioid therapy.
+additionalProperties: false
+submittable: true
+
+systemProperties:
+  - id
+  - project_id
+  - state
+  - created_datetime
+  - updated_datetime
+
+links:
+  - name: pb_substance_use
+    backref: pb_current_opioid_misuse_measure
+    label: derived_from
+    target_type: pb_substance_use
+    multiplicity: many_to_one
+    required: true
+
+required:
+  - submitter_id
+  - type
+
+uniqueKeys:
+  - [id]
+  - [project_id, submitter_id]
+
+properties:
+
+  $ref: "_definitions.yaml#/ubiquitous_properties"
+
+  record_id:
+    description: >-
+      Record ID
+    type: number
+
+  commtrbthkclrpast30dayscl:
+    description: >-
+      1. In the past 30 days, how often have you had trouble with thinking clearly
+      or had memory problems?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commcomptaskpast30dayscl:
+    description: >-
+      2. In the past 30 days, how often do people complain that you are not completing
+      necessary tasks? (i.e., doing things that need to be done, such as going to
+      class, work or appointments)
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commothphyscmedpst30dyscl:
+    description: >-
+      3. In the past 30 days, how often have you had to go to someone other than your
+      prescribing physician to get sufficient pain relief from medications? (i.e.,
+      another doctor, the Emergency Room, friends, street sources)
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commtakmeddifpast30dayscl:
+    description: >-
+      4. In the past 30 days, how often have you taken your medications differently
+      from how they are prescribed?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commhurtselfpast30dayscl:
+    description: >-
+      5. In the past 30 days, how often have you seriously thought about hurting yourself?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commopithkpast30dayscl:
+    description: >-
+      6. In the past 30 days, how much of your time was spent thinking about opioid
+      medications (having enough, taking them, dosing schedule, etc.)?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commargoftpast30dayscl:
+    description: >-
+      7. In the past 30 days, how often have you been in an argument?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commangconpast30dayscl:
+    description: >-
+      8. In the past 30 days, how often have you had trouble controlling your anger
+      (e.g., road rage, screaming, etc.)?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commsomelsmedpast30dayscl:
+    description: >-
+      9. In the past 30 days, how often have you needed to take pain medications belonging
+      to someone else?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commhanmedworpast30dayscl:
+    description: >-
+      10. In the past 30 days, how often have you been worried about how you're handling
+      your medications?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commothworrypast30dayscl:
+    description: >-
+      11. In the past 30 days, how often have others been worried about how you're
+      handling your medications?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commemecalapppast30dayscl:
+    description: >-
+      12. In the past 30 days, how often have you had to make an emergency phone call
+      or show up at the clinic without an appointment?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commangroftnpast30dayscl:
+    description: >-
+      13. In the past 30 days, how often have you gotten angry with people?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commtakmormedpast30dayscl:
+    description: >-
+      14. In the past 30 days, how often have you had to take more of your medication
+      than prescribed?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commbormedpast30dayscl:
+    description: >-
+      15. In the past 30 days, how often have you borrowed pain medication from someone
+      else?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commothsympast30dayscl:
+    description: >-
+      16. In the past 30 days, how often have you used your pain medicine for symptoms
+      other than for pain (e.g., to help you sleep, improve your mood, or relieve
+      stress)?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commemergrmpast30dayscl:
+    description: >-
+      17. In the past 30 days, how often have you had to visit the Emergency Room?
+    enum:
+      - Never
+      - Seldom
+      - Sometimes
+      - Often
+      - Very Often
+
+  commtotalscore:
+    description: >-
+      Current Opioid Misuse Measure (COMM) - total score
+    type: number
+
+  pb_substance_use:
+    $ref: "_definitions.yaml#/to_one"

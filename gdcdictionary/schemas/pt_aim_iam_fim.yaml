@@ -1,14 +1,14 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 
-id: "pb_aim_iam_fim"
-title: Provider Baseline AIM IAM FIM
+id: "pt_aim_iam_fim"
+title: Patient Baseline AIM IAM FIM
 type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
 project: '*'
 description: >-
-  Data describing provider baseline  AIM IAM FIM characteristics
+  Data describing patient baseline  AIM IAM FIM characteristics
 additionalProperties: false
 submittable: true
 
@@ -20,10 +20,10 @@ systemProperties:
   - updated_datetime
 
 links:
-  - name: pb_implementation_sciences
-    backref: pb_aim_iam_fims
+  - name: patient_baseline
+    backref: pt_aim_iam_fims
     label: derived_from
-    target_type: pb_implementation_science
+    target_type: patient_baseline
     multiplicity: many_to_one
     required: true
 
@@ -176,5 +176,5 @@ properties:
       Feasibility of Intervention score
     type: number
 
-  pb_implementation_sciences:
+  patient_baseline:
     $ref: "_definitions.yaml#/to_one"

@@ -1,0 +1,219 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+id: "pb_subjective_opiate_withdrawal_scale"
+title: subjective_opiate_withdrawal_scale
+type: Object
+namespace: https://impowrgen3.wakehealth.edu/
+category: clinical
+program: '*'
+project: '*'
+description: >-
+  Describes the patient baseline intensity of opioid withdrawal based on a 5-point
+  scale of 16 symptoms.
+additionalProperties: false
+submittable: true
+
+systemProperties:
+  - id
+  - project_id
+  - state
+  - created_datetime
+  - updated_datetime
+
+links:
+  - name: pb_substance_use
+    backref: pb_subjective_opiate_withdrawal_scale
+    label: derived_from
+    target_type: pb_substance_use
+    multiplicity: many_to_one
+    required: true
+
+required:
+  - submitter_id
+  - type
+
+uniqueKeys:
+  - [id]
+  - [project_id, submitter_id]
+
+properties:
+
+  $ref: "_definitions.yaml#/ubiquitous_properties"
+
+  sows_date:
+    description: >-
+      Date
+    type: string
+
+  sows_time:
+    description: >-
+      Time
+    type: string
+
+  sows_anxiety:
+    description: >-
+      I feel anxious
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_yawn:
+    description: >-
+      I feel like yawning
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_perspire:
+    description: >-
+      I am perspiring
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_tear:
+    description: >-
+      My eyes are tearing
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_run:
+    description: >-
+      My nose is running
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_goosebump:
+    description: >-
+      I have goosebumps
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_shake:
+    description: >-
+      I am shaking
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_hot:
+    description: >-
+      I have hot flushes
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_cold:
+    description: >-
+      I have cold flushes
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_ache:
+    description: >-
+      My bones and muscles ache
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_restless:
+    description: >-
+      I feel restless
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_nauseous:
+    description: >-
+      I feel nauseous
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_vomit:
+    description: >-
+      I feel like vomiting
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_twitch:
+    description: >-
+      My muscles twitch
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_cramp:
+    description: >-
+      I have stomach cramps
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_use:
+    description: >-
+      I feel like using now
+    enum:
+      - Not at all
+      - A little
+      - Moderately
+      - Quite a bit
+      - Extremely
+
+  sows_score:
+    description: >-
+      SOWS total score
+    type: number
+
+  pb_substance_use:
+    $ref: "_definitions.yaml#/to_one"
