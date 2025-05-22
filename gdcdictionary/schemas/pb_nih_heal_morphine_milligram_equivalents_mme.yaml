@@ -2,7 +2,7 @@ $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_nih_heal_morphine_milligram_equivalents_mme"
 title: nih_heal_morphine_milligram_equivalents_mme
-type: Object
+type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'

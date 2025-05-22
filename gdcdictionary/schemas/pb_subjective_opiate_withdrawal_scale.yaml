@@ -2,7 +2,7 @@ $schema: "http://json-schema.org/draft-04/schema#"
 
 id: "pb_subjective_opiate_withdrawal_scale"
 title: subjective_opiate_withdrawal_scale
-type: Object
+type: object
 namespace: https://impowrgen3.wakehealth.edu/
 category: clinical
 program: '*'
