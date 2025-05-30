@@ -573,5 +573,173 @@ properties:
       Follow-up: 8, 16, 24, and 52 weeks
     type: number
 
+  mihriql_musc_studysite:
+    description: >-
+      The patient is enrolled in "Sequential Trial of Adding Buprenorphine, Cognitive
+      Behavioral Treatment, and Transcranial Magnetic Stimulation to Improve Outcomes
+      of Long-Term Opioid Therapy for Chronic Pain (ACTION)
+    type: boolean
+
+  mirhiql_musc_inter:
+    description: >-
+      Intervention: Transitioning onto buprenorphine; rTMS
+    type: number
+
+  mihriql_musc_sd:
+    description: >-
+      Study design: Multi-phase Stepped Care
+    type: number
+
+  mihriql_musc_if:
+    description: >-
+      Implementation framework: N/A (Provider assessments only)
+    type: number
+
+  mihriql_musc_setting:
+    description: >-
+      Setting: Academic Clinic
+    type: number
+
+  mihriql_musc_geo:
+    description: >-
+      Geography: South Carolina
+    type: number
+
+  mihriql_musc_sample:
+    description: >-
+      Sample size: 240
+    type: number
+
+  mihriql_musc_followup:
+    description: >-
+      Follow-up: 1-, 3-, 6-, and 12-month
+    type: number
+
+  mihriql_musc_opioidharm:
+    description: >-
+      Opioid related harm defined as: On long-term opioids with MME>/=50 and at least
+      one additional risk from the following list: 1. Taking benzodiazepines 2. Substance
+      Use Disorder diagnosis 3. Having ever experienced an overdose 4. Current major
+      medical problem 5. Hospitalized for an acute medical issue in the past 6 months
+      5. Response to BPI Item 8 <30% 6. Co-morbid psychiatric diagnosis 7. Signs of
+      opioid misuse [any score >0 on the following COMM Items: 3,4,5,9,10,11,14,15,16]
+      8. Current Opioid Misuse Measure â‰¥ 9 9. Opioid Risk Tool >3 10. Having any
+      of the following side effects from opioids [self-report]: -Dizziness and/or
+      falls -Difficult-to-manage stomach pain, nausea, constipation or GI issues -Fatigue
+      or low energy -Sleepiness or sedation -Trouble with memory or thinking clearly
+      -Other troublesome opioid side effect
+    type: number
+
+  mihriql_stanford_studysite:
+    description: >-
+      The patient is enrolled in "Integrating Tailored Postoperative Opioid Tapering
+      and Pain Management Support for Patients on Long-Term Opioid Use Presenting
+      for Spine Surgery (MIRHIQL)
+    type: boolean
+
+  mirhiql_stanford_inter:
+    description: >-
+      Intervention: Motivational interviewing (MI) for tapering post-surgery in chronic
+      pain patients + tizanidine vs MI taper + placebo vs enhanced usual care
+    type: number
+
+  mihriql_stanford_sd:
+    description: >-
+      Study design: 3 arm RCT
+    type: number
+
+  mihriql_stanford_if:
+    description: >-
+      Implementation framework: Hybrid implementation-effectiveness Type I; RE-AIM
+    type: number
+
+  mihriql_stanford_setting:
+    description: >-
+      Setting: Hospital (4 sites)
+    type: number
+
+  mihriql_stanford_geo:
+    description: >-
+      Geography: California, Kansas, North Carolina, Massachusetts
+    type: number
+
+  mihriql_stanford_sample:
+    description: >-
+      Sample size: 375
+    type: number
+
+  mihriql_stanford_followup:
+    description: >-
+      Follow-up: 3, 6, 12 months
+    type: number
+
+  mihriql_stan_opioidharm:
+    description: >-
+      Opioid related harm defined as: Participants must report at least one of the
+      following on preoperative assessments: Current Opioid Misuse Measure (COMM)
+      score greater than or equal to 9 Answering "Yes" to any of the following items
+      on the modified Brief Pain Inventory (BPI)[118]: 1) Over the past 24 hours have
+      you needed to take your pain medication to help you sleep; 2)Have you taken
+      any pain medications for any reason other than your pain, such as to reduce
+      anxiety or improve mood? 3) Have you taken more pain medication than was prescribed
+      to you in the past 24 hours? Score of greater than or equal to 2 on tobacco
+      or alcohol items, or a score of 1 on the illicit substances or prescription
+      opioid items of the Tobacco, Alcohol, Prescription medication (TAPS-1) Positive
+      Alcohol Use Disorders Identification Test (AUDIT-C) score (4 or more for men,
+      3 or more for women)
+    type: number
+
+  mihriql_utah_studysite:
+    description: >-
+      The patient is enrolled in "Optimizing Patient-Centered Opioid Tapering with
+      Mindfulness-Oriented Recovery Enhancement
+    type: boolean
+
+  mirhiql_utah_inter:
+    description: >-
+      Intervention: MORE + Patient-centered tapering vs Supportive group psychotherapy
+      + Patient-centered tapering
+    type: number
+
+  mihriql_utah_sd:
+    description: >-
+      Study design: 2 arm RCT
+    type: number
+
+  mihriql_utah_if:
+    description: >-
+      Implementation framework: Hybrid implementation-effectiveness Type II; RE-AIM
+    type: number
+
+  mihriql_utah_setting:
+    description: >-
+      Setting: Primary Care (10 sites)
+    type: number
+
+  mihriql_utah_geo:
+    description: >-
+      Geography: Utah, New Jersey
+    type: number
+
+  mihriql_utah_sample:
+    description: >-
+      Sample size: 300
+    type: number
+
+  mihriql_utah_followup:
+    description: >-
+      Follow-up: 3-, 6-, 9-, and 12-month
+    type: number
+
+  mihriql_utah_opioidharm:
+    description: >-
+      Opioid related harm defined as: One or more indicators of risk for opioid-related
+      harm, including: opioid misuse on the COMM benzodiazepine use lifetime or current
+      substance use disorder (SUD) diagnosis history of overdose lifetime or current
+      psychiatric diagnosis Score of greater than or equal to 2 on tobacco or alcohol
+      items, or a score of 1 on the illicit substances or prescription opioid items
+      of the Tobacco, Alcohol, Prescription medication (TAPS-1)
+    type: number
+
   projects:
     $ref: "_definitions.yaml#/to_one_project"

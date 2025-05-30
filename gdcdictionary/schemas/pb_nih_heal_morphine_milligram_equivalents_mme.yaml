@@ -1,0 +1,1136 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+id: "pb_nih_heal_morphine_milligram_equivalents_mme"
+title: nih_heal_morphine_milligram_equivalents_mme
+type: object
+namespace: https://impowrgen3.wakehealth.edu/
+category: clinical
+program: '*'
+project: '*'
+description: >-
+  Describes the patients total daily MME
+additionalProperties: false
+submittable: true
+
+systemProperties:
+  - id
+  - project_id
+  - state
+  - created_datetime
+  - updated_datetime
+
+links:
+  - name: pb_substance_use
+    backref: pb_nih_heal_morphine_milligram_equivalents_mme
+    label: derived_from
+    target_type: pb_substance_use
+    multiplicity: many_to_one
+    required: true
+
+required:
+  - submitter_id
+  - type
+
+uniqueKeys:
+  - [id]
+  - [project_id, submitter_id]
+
+properties:
+
+  $ref: "_definitions.yaml#/ubiquitous_properties"
+
+  recordid:
+    description: >-
+      Record ID
+    type: string
+
+  desc01:
+    description: >-
+      The NIH HEAL CDE program requires clinical pain studies to collect data on prescribed/dispensed
+      opioid use for pain management in trials involving human subjects. Prescribed/dispensed
+      opioid use will be reported as daily morphine milligram equivalents (MMEs),
+      which is a metric to estimate analgesic profile and/or overdose potential of
+      the prescribed opioid medications.
+    type: string
+
+  mme_opioid_screen:
+    description: >-
+      Is the participant taking an opioid medication for pain management?
+    type: boolean
+
+  mme_opioid_type:
+    description: >-
+      Select all opioid medication(s) that apply
+    type: boolean
+
+  mme_buprenorphine:
+    description: >-
+      Buprenorphine
+    type: boolean
+
+  mme_butorphanol:
+    description: >-
+      Butorphanol
+    type: boolean
+
+  mme_codeine:
+    description: >-
+      Codeine
+    type: boolean
+
+  mme_dihydrocodeine:
+    description: >-
+      Dihydrocodeine
+    type: boolean
+
+  mme_fentanyl:
+    description: >-
+      Fentanyl
+    type: boolean
+
+  mme_hydrocodone:
+    description: >-
+      Hydrocodone
+    type: boolean
+
+  mme_hydromorphone:
+    description: >-
+      Hydromorphone
+    type: boolean
+
+  mme_levorphanol:
+    description: >-
+      Levorphanol tartrate
+    type: boolean
+
+  mme_meperidine:
+    description: >-
+      Meperidine
+    type: boolean
+
+  mme_methadone:
+    description: >-
+      Methadone
+    type: boolean
+
+  mme_morphine:
+    description: >-
+      Morphine
+    type: boolean
+
+  mme_opium:
+    description: >-
+      Opium
+    type: boolean
+
+  mme_oxycodone:
+    description: >-
+      Oxycodone
+    type: boolean
+
+  mme_oxymorphone:
+    description: >-
+      Oxymorphone
+    type: boolean
+
+  mme_pentazocine:
+    description: >-
+      Pentazocine
+    type: boolean
+
+  mme_tapentadol:
+    description: >-
+      Tapentadol
+    type: boolean
+
+  mme_tramadol:
+    description: >-
+      Tramadol
+    type: boolean
+
+  desc_bup_disclaim:
+    description: >-
+      Buprenorphine Disclaimer: There is a range of buprenorphine products that include
+      formulations with FDA approval for pain and formulations that have FDA approval
+      for opioid use disorder, which are prescribed off label for pain management.
+      The CDC currently recommends that buprenorphine should not be counted in total
+      MME or MME/Day calculations because buprenorphine has partial agonist properties
+      at opioid receptors that confer a ceiling effect on respiratory depression (Dowell
+      et al., 2022). There are several national prescribing guidelines, however, that
+      endorse the use of buprenorphine as an analgesic for chronic pain management.
+      For participants who have been prescribed buprenorphine for pain management
+      ( and not OUD ), this tool will create daily MME values based on the four definitions
+      with and without buprenorphine daily MMEs. The MME values, inclusive and exclusive
+      of buprenorphine products, will only be used for research purposes. Please note
+      buprenorphine to morphine conversions are approximate (not defined by direct
+      clinical studies of analgesic equivalence).
+    type: string
+
+  desc_bupe:
+    description: >-
+      Buprenorphine
+    type: string
+
+  mme_bup_form:
+    description: >-
+      Which format(s) of buprenorphine is/are taken?
+    type: boolean
+
+  mme_bup_filmtab_mg:
+    description: >-
+      Buprenorphine sublingual (mg)
+    type: number
+
+  mme_bup_filmtab_mg_conv:
+    description: >-
+      Buprenorphine sublingual (mg) MME conversion factor
+    type: number
+
+  mme_bup_filmtab_mg_dose:
+    description: >-
+      Buprenorphine sublingual dose (mg)?
+    type: string
+
+  mme_bup_filmtab_mg_24h:
+    description: >-
+      Number of buprenorphine sublingual doses per day?
+    type: string
+
+  mme_bup_filmtab_mg_rxdur:
+    description: >-
+      Duration of buprenorphine sublingual prescription (in days)?
+    type: string
+
+  mme_bup_filmtab_mme:
+    description: >-
+      Buprenorphine sublingual calculated MME
+    type: number
+
+  mme_bup_patch_mcg:
+    description: >-
+      Buprenorphine transdermal (mcg/hr)
+    type: number
+
+  mme_bup_patch_mcg_conv:
+    description: >-
+      Buprenorphine transdermal (mcg/hr) MME conversion factor
+    type: number
+
+  mme_bup_patch_mcg_dose:
+    description: >-
+      Buprenorphine transdermal dose (mcg/hr)?
+    type: string
+
+  mme_bup_patch_days_per:
+    description: >-
+      Number of days each buprenorphine transdermal patch is worn?
+    type: string
+
+  mme_bup_patch_mcg_rxdur:
+    description: >-
+      Duration of buprenorphine transdermal prescription (in days)?
+    type: string
+
+  mme_bup_patch_mcg_mme24:
+    description: >-
+      Buprenorphine transdermal calculated24 hour MME
+    type: number
+
+  mme_bup_patch_mcg_mme:
+    description: >-
+      Buprenorphine transdermal calculated MME
+    type: number
+
+  mme_bup_film_mcg:
+    description: >-
+      Buprenorphine buccal
+    type: number
+
+  mme_bup_film_mcg_conv:
+    description: >-
+      Buprenorphine buccal MME conversion factor
+    type: number
+
+  mme_bup_film_mcg_dose:
+    description: >-
+      Buprenorphine buccal dose (mcg)?
+    type: string
+
+  mme_bup_film_mcg_24h:
+    description: >-
+      Number of buprenorphine buccal doses per day?
+    type: string
+
+  mme_bup_film_mcg_rxdur:
+    description: >-
+      Duration of buprenorphine buccal prescription (in days)?
+    type: string
+
+  mme_bup_film_mcg_mme:
+    description: >-
+      Buprenorphine buccal calculated MME
+    type: number
+
+  desc_butor:
+    description: >-
+      Butorphanol
+    type: string
+
+  mme_butor_conv:
+    description: >-
+      Butorphanol (mg) MME conversion factor
+    type: number
+
+  mme_butor_dose:
+    description: >-
+      Butorphanol dose (mg)?
+    type: string
+
+  mme_butor_24h:
+    description: >-
+      Number of butorphanol doses per day?
+    type: string
+
+  mme_butor_rxdur:
+    description: >-
+      Duration of butorphanol prescription (in days)?
+    type: string
+
+  mme_butor_mme:
+    description: >-
+      Butorphanol calculated MME
+    type: number
+
+  desc_cod:
+    description: >-
+      Codeine
+    type: string
+
+  mme_codeine_conv:
+    description: >-
+      Codeine (mg) MME conversion factor
+    type: number
+
+  mme_codeine_dose:
+    description: >-
+      Codeine dose (mg)?
+    type: string
+
+  mme_codeine_24h:
+    description: >-
+      Number of codeine doses per day?
+    type: string
+
+  mme_codeine_rxdur:
+    description: >-
+      Duration of codeine prescription (in days)?
+    type: string
+
+  mme_codeine_mme:
+    description: >-
+      Codeine calculated MME
+    type: number
+
+  descr_dihydro:
+    description: >-
+      Dihydrocodeine
+    type: string
+
+  mme_dihydro_conv:
+    description: >-
+      Dihydrocodeine (mg) MME conversion factor
+    type: number
+
+  mme_dihydro_dose:
+    description: >-
+      Dihydrocodeine dose (mg)?
+    type: string
+
+  mme_dihydro_24h:
+    description: >-
+      Number of dihydrocodeine doses per day?
+    type: string
+
+  mme_dihydro_rxdur:
+    description: >-
+      Duration of dihydrocodeine prescription (in days)?
+    type: string
+
+  mme_dihydro_mme:
+    description: >-
+      Dihydrocodeine calculated MME
+    type: number
+
+  desc_fent:
+    description: >-
+      Fentanyl
+    type: string
+
+  mme_fent_form:
+    description: >-
+      Which format(s) of fentanyl is/are taken?
+    type: boolean
+
+  mme_fent_bucc:
+    description: >-
+      Fentanyl buccal tablet, SL tablets, or lozenge/troche (mcg)
+    type: number
+
+  mme_fent_bucc_conv:
+    description: >-
+      Fentanyl buccal or SL tablets or lozenge/troche (mcg) MME conversion factor
+    type: number
+
+  mme_fent_bucc_dose:
+    description: >-
+      Fentanyl buccal or SL tablets or lozenge/troche dose (mcg)?
+    type: string
+
+  mme_fent_bucc_24h:
+    description: >-
+      Number of Fentanyl buccal or SL tablets or lozenge/troche doses per day?
+    type: string
+
+  mme_fent_bucc_rxdur:
+    description: >-
+      Duration of Fentanyl buccal or SL tablets or lozenge/troche prescription (in
+      days)?
+    type: string
+
+  mme_fent_bucc_mme:
+    description: >-
+      Fentanyl buccal tablet, SL tablet, or lozenge/troche calculated MME
+    type: number
+
+  mme_fent_oral:
+    description: >-
+      Fentanyl film or oral spray (mcg)
+    type: number
+
+  mme_fent_oral_conv:
+    description: >-
+      Fentanyl film or oral spray (mcg) MME conversion factor
+    type: number
+
+  mme_fent_oral_dose:
+    description: >-
+      Fentanyl film or oral spray dose (mcg)?
+    type: string
+
+  mme_fent_oral_24h:
+    description: >-
+      Number of fentanyl film or oral spray doses per day?
+    type: string
+
+  mme_fent_oral_rxdur:
+    description: >-
+      Duration of fentanyl film or oral spray prescription (in days)?
+    type: string
+
+  mme_fent_oral_mme:
+    description: >-
+      Fentanyl film or oral spray calculated MME
+    type: number
+
+  mme_fent_nasal:
+    description: >-
+      Fentanyl nasal spray (mcg)
+    type: number
+
+  mme_fent_nasal_conv:
+    description: >-
+      Fentanyl nasal spray (mcg) MME conversion factor
+    type: number
+
+  mme_fent_nasal_dose:
+    description: >-
+      Fentanyl nasal spray dose (mcg)?
+    type: string
+
+  mme_fent_nasal_24h:
+    description: >-
+      Number of fentanyl nasal spray doses per day?
+    type: string
+
+  mme_fent_nasal_rxdur:
+    description: >-
+      Duration of fentanyl nasal spray prescription (in days)?
+    type: string
+
+  mme_fent_nasal_mme:
+    description: >-
+      Fentanyl nasal spray calculated MME
+    type: number
+
+  mme_fent_patch:
+    description: >-
+      Fentanyl transdermal patch (mcg/hr)
+    type: number
+
+  mme_fent_patch_conv:
+    description: >-
+      Fentanyl transdermal patch MME conversion factor
+    type: number
+
+  mme_fent_patch_dose:
+    description: >-
+      Fentanyl transdermal patch dose (mcg/hr)?
+    type: string
+
+  mme_fent_patch_days_per:
+    description: >-
+      Number of days each fentanyl transdermal patch is worn?
+    type: string
+
+  mme_fent_patch_rxdur:
+    description: >-
+      Duration of fentanyl transdermal patch prescription (in days)?
+    type: string
+
+  mme_fent_patch_mme24:
+    description: >-
+      Fentanyl transdermal patch calculated 24 hour MME
+    type: number
+
+  mme_fent_patch_mme:
+    description: >-
+      Fentanyl transdermal patch calculated MME
+    type: number
+
+  desc_hydrocod:
+    description: >-
+      Hydrocodone
+    type: string
+
+  mme_hydrocod_form:
+    description: >-
+      Which formulation(s) of hydrocodone is being taken?
+    type: boolean
+
+  mme_hydrocod_conv:
+    description: >-
+      Hydrocodone (mg) MME conversion factor
+    type: number
+
+  mme_hydrocod_dose:
+    description: >-
+      Hydrocodone short acting dose (mg)?
+    type: string
+
+  mme_hydrocod_24h:
+    description: >-
+      Number of hydrocodone short acting doses per day?
+    type: string
+
+  mme_hydrocod_rxdur:
+    description: >-
+      Duration of hydrocodone short acting prescription (in days)?
+    type: string
+
+  mme_hydrocod_la_dose:
+    description: >-
+      Hydrocodone long acting dose (mg)?
+    type: string
+
+  mme_hydrocod_la_24h:
+    description: >-
+      Number of hydrocodone long acting doses per day?
+    type: string
+
+  mme_hydrocod_la_rxdur:
+    description: >-
+      Duration of hydrocodone long acting prescription (in days)?
+    type: string
+
+  mme_hydrocodone_mme:
+    description: >-
+      Hydrocodone calculated MME
+    type: number
+
+  desc_hydromorphone:
+    description: >-
+      Hydromorphone
+    type: string
+
+  mme_hydromor_form:
+    description: >-
+      Which formulation(s) of hydromorphone is being taken?
+    type: boolean
+
+  mme_hydromor_conv:
+    description: >-
+      Hydromorphone (mg) MME conversion factor
+    type: number
+
+  mme_hydromor_dose:
+    description: >-
+      Hydromorphone short acting - dose (mg)?
+    type: string
+
+  mme_hydromor_24h:
+    description: >-
+      Number of hydromorphone short acting doses per day?
+    type: string
+
+  mme_hydromor_rxdur:
+    description: >-
+      Duration of hydromorphone short acting prescription (in days)?
+    type: string
+
+  mme_hydromor_la_dose:
+    description: >-
+      Hydromorphone long acting dose (mg)?
+    type: string
+
+  mme_hydromor_la_24h:
+    description: >-
+      Number of hydromorphone long acting doses per day?
+    type: string
+
+  mme_hydromor_la_rxdur:
+    description: >-
+      Duration of hydromorphone long acting prescription (in days)?
+    type: string
+
+  mme_hydromor_mme:
+    description: >-
+      Hydromorphone calculated MME
+    type: number
+
+  desc_levor:
+    description: >-
+      Levorphanol tartrate
+    type: string
+
+  mme_levor_conv:
+    description: >-
+      Levorphanol tartrate (mg) MME conversion factor
+    type: number
+
+  mme_levor_dose:
+    description: >-
+      Levorphanol tartrate dose (mg)?
+    type: string
+
+  mme_levor_24h:
+    description: >-
+      Number of levorphanol titrate doses per day?
+    type: string
+
+  mme_levor_rxdur:
+    description: >-
+      Duration of levorphanol tartrate prescription (in days)?
+    type: string
+
+  mme_levor_mme:
+    description: >-
+      Levorphanol tartrate calculated MME
+    type: number
+
+  desc_meper:
+    description: >-
+      Meperidine hydrochloride
+    type: string
+
+  mme_meper_conv:
+    description: >-
+      Meperidine hydrochloride (mg) MME conversion factor
+    type: number
+
+  mme_meper_dose:
+    description: >-
+      Meperidine Hydrochloride dose (mg)?
+    type: string
+
+  mme_meper_24h:
+    description: >-
+      Number of meperidine hydrochloride doses per day?
+    type: string
+
+  mme_meper_rxdur:
+    description: >-
+      Duration of meperidine hydrocholoride prescription (in days)?
+    type: string
+
+  mme_meper_mme:
+    description: >-
+      Meperidine hydrochloride calculated MME
+    type: number
+
+  descr_methadone:
+    description: >-
+      Methadone
+    type: string
+
+  mme_methadone_conv:
+    description: >-
+      Methadone (mg) MME conversion factor
+    type: number
+
+  mme_methadone_dose:
+    description: >-
+      Methadone dose (mg)?
+    type: string
+
+  mme_methadone_24h:
+    description: >-
+      Number of methadone doses per day?
+    type: string
+
+  mme_methadone_rxdur:
+    description: >-
+      Duration of methadone prescription (in days)?
+    type: string
+
+  mme_methadone_mme:
+    description: >-
+      Methadone calculated MME
+    type: number
+
+  descr_morphine:
+    description: >-
+      Morphine
+    type: string
+
+  mme_morphine_conv:
+    description: >-
+      Morphine (mg) MME conversion factor
+    type: number
+
+  mme_morphine_form:
+    description: >-
+      Which formulation(s) of morphine is being taken?
+    type: boolean
+
+  mme_morphine_dose:
+    description: >-
+      Morphine short acting dose (mg)?
+    type: string
+
+  mme_morphine_24h:
+    description: >-
+      Number of morphine short acting doses per day?
+    type: string
+
+  mme_morphine_rxdur:
+    description: >-
+      Duration of morphine short acting prescription (in days)?
+    type: string
+
+  mme_morphine_la_dose:
+    description: >-
+      Morphine long acting dose (mg)?
+    type: string
+
+  mme_morphine_la_24h:
+    description: >-
+      Number of morphine long acting doses per day?
+    type: string
+
+  mme_morphine_la_rxdur:
+    description: >-
+      Duration of morphine long acting prescription (in days)?
+    type: string
+
+  mme_morphine_mme:
+    description: >-
+      Morphine calculated MME
+    type: number
+
+  desc_opium:
+    description: >-
+      Opium
+    type: string
+
+  mme_opium_conv:
+    description: >-
+      Opium (mg) MME conversion factor
+    type: number
+
+  mme_opium_dose:
+    description: >-
+      Opium dose (mg)?
+    type: string
+
+  mme_opium_24h:
+    description: >-
+      Number of opium doses per day?
+    type: string
+
+  mme_opium_rxdur:
+    description: >-
+      Duration of opium prescription (in days)?
+    type: string
+
+  mme_opium_mme:
+    description: >-
+      Opium calculated MME
+    type: number
+
+  descr_oxycod:
+    description: >-
+      Oxycodone
+    type: string
+
+  mme_oxycod_conv:
+    description: >-
+      Oxycodone (mg) MME conversion factor
+    type: number
+
+  mme_oxycod_form:
+    description: >-
+      Which formulation(s) of oxycodone is being taken?
+    type: boolean
+
+  mme_oxycod_dose:
+    description: >-
+      Oxycodone short acting dose (mg)?
+    type: string
+
+  mme_oxycod_24h:
+    description: >-
+      Number of oxycodone short acting doses per day?
+    type: string
+
+  mme_oxycod_rxdur:
+    description: >-
+      Duration of oxycodone short acting prescription (in days)?
+    type: string
+
+  mme_oxycod_la_dose:
+    description: >-
+      Oxycodone long acting dose (mg)?
+    type: string
+
+  mme_oxycod_la_24h:
+    description: >-
+      Number of oxycodone long acting doses per day?
+    type: string
+
+  mme_oxycod_la_rxdur:
+    description: >-
+      Duration of oxycodone long acting prescription (in days)?
+    type: string
+
+  mme_oxycod_mme:
+    description: >-
+      Oxycodone calculated MME
+    type: number
+
+  desc_oxymor:
+    description: >-
+      Oxymorphone
+    type: string
+
+  mme_oxymor_conv:
+    description: >-
+      Oxymorphone (mg) MME conversion factor
+    type: number
+
+  mme_oxymor_form:
+    description: >-
+      Which formulation(s) of oxymorphone is being taken?
+    type: boolean
+
+  mme_oxymor_dose:
+    description: >-
+      Oxymorphone short acting dose (mg)?
+    type: string
+
+  mme_oxymor_24h:
+    description: >-
+      Number of oxymorphone short acting doses per day?
+    type: string
+
+  mme_oxymor_rxdur:
+    description: >-
+      Duration of oxymorphone short acting prescription (in days)?
+    type: string
+
+  mme_oxymor_la_dose:
+    description: >-
+      Oxymorphone long acting dose (mg)?
+    type: string
+
+  mme_oxymor_la_24h:
+    description: >-
+      Number of oxymorphone long acting doses per day?
+    type: string
+
+  mme_oxymor_la_rxdur:
+    description: >-
+      Duration of oxymorphone long acting prescription (in days)?
+    type: string
+
+  mme_oxymor_mme:
+    description: >-
+      Oxymorphone calculated MME
+    type: number
+
+  descr_pentaz:
+    description: >-
+      Pentazocine
+    type: string
+
+  mme_pentaz_conv:
+    description: >-
+      Pentazocine (mg) MME conversion factor
+    type: number
+
+  mme_pentaz_dose:
+    description: >-
+      Pentazocine dose (mg)?
+    type: string
+
+  mme_pentaz_24h:
+    description: >-
+      Number of pentazocine doses per day?
+    type: string
+
+  mme_pentaz_rxdur:
+    description: >-
+      Duration of pentazocine prescription (in days)?
+    type: string
+
+  mme_pentaz_mme:
+    description: >-
+      Pentazocine calculated MME
+    type: number
+
+  desc_tapen:
+    description: >-
+      Tapentadol
+    type: string
+
+  mme_tapen_conv:
+    description: >-
+      Tapentadol (mg) MME conversion factor
+    type: number
+
+  mme_tapen_form:
+    description: >-
+      Which formulation(s) of tapentadol is being taken?
+    type: boolean
+
+  mme_tapen_dose:
+    description: >-
+      Tapentadol short acting dose (mg)?
+    type: string
+
+  mme_tapen_24h:
+    description: >-
+      Number of tapentadol short acting doses per day?
+    type: string
+
+  mme_tapen_rxdur:
+    description: >-
+      Duration of tapentadol short acting prescription (in days)?
+    type: string
+
+  mme_tapen_la_dose:
+    description: >-
+      Tapentadol long acting dose (mg)?
+    type: string
+
+  mme_tapen_la_24h:
+    description: >-
+      Number of tapentadol long acting doses per day?
+    type: string
+
+  mme_tapen_la_rxdur:
+    description: >-
+      Duration of tapentadol long acting prescription (in days)?
+    type: string
+
+  mme_tapen_mme:
+    description: >-
+      Tapentadol calculated MME
+    type: number
+
+  desc_tram:
+    description: >-
+      Tramadol
+    type: string
+
+  mme_tram_conv:
+    description: >-
+      Tramadol (mg) MME conversion factor
+    type: number
+
+  mm_tram_form:
+    description: >-
+      Which formulation(s) of tramadol is being taken?
+    type: boolean
+
+  mme_tram_dose:
+    description: >-
+      Tramadol short acting dose (mg)?
+    type: string
+
+  mme_tram_24h:
+    description: >-
+      Number of tramadol short acting doses per day?
+    type: string
+
+  mme_tram_rxdur:
+    description: >-
+      Duration of tramadol short acting prescription (in days)?
+    type: string
+
+  mme_tram_la_dose:
+    description: >-
+      Tramadol long acting dose (mg)?
+    type: string
+
+  mme_tram_la_24h:
+    description: >-
+      Number of tramadol long acting doses per day?
+    type: string
+
+  mme_tram_la_rxdur:
+    description: >-
+      Duration of tramadol long acting prescription (in days)?
+    type: string
+
+  mme_tram_mme:
+    description: >-
+      Tramadol calculated MME
+    type: number
+
+  descr_nomed:
+    description: >-
+      You indicated participant was not taking opioid medications. Please continue
+      to next page.
+    type: string
+
+  mme_sum_allrx_mme:
+    description: >-
+      Total MME across prescriptions (calculated automatically, excludes buprenorphine)
+    type: number
+
+  mme_sum_rxdur:
+    description: >-
+      Total Days Supply  (calculated automatically, excludes buprenorphine) Sum of
+      prescription duration days
+    type: number
+
+  mme_on_therapy_days:
+    description: >-
+      On-therapy Days  Please ENTER the sum of prescription duration days, excluding
+      buprenorphine days, with each calendar day counted only ONCE. If only one prescription
+      or no overlapping days this will be same as the total days supply:  [mme_sum_rxdur]
+    type: string
+
+  mme_fixed_observation:
+    description: >-
+      Fixed Observation Window.  ENTER the number of days. This is a study-defined
+      interval.  Examples: 7 days, 30 days, 60 days, 90 days.
+    type: string
+
+  desc_mmeday:
+    description: >-
+      Opioid MME/Day Calculations  EXCLUDING Buprenorphine
+    type: string
+
+  mme_total_days_supply:
+    description: >-
+      MME/Day Definition 1. Total Days Supply (excluding buprenorphine) Total MME
+      across prescriptions/Total Days Supply
+    type: number
+
+  mme_total_mme_on_ther:
+    description: >-
+      MME/Day Definition 2. On-therapy Days (excluding buprenorphine) Total MME across
+      prescriptions/On-therapy days
+    type: number
+
+  mme_total_fixed_observ:
+    description: >-
+      MME/Day Definition 3. Fixed Observation Window (excluding buprenorphine) Total
+      MME/Fixed Observation Window
+    type: number
+
+  mme_max_daily_dose:
+    description: >-
+      MME/Day Definition 4. Maximum Daily Dose  Highest single-day MME exposure This
+      is sum of  24 hour  MME
+    type: number
+
+  descr_nomed_2:
+    description: >-
+      You indicated participant was not taking opioid medications. Please continue
+      to next page and click the submit button.
+    type: string
+
+  desc_withbup_2:
+    description: >-
+      Therapy Days and Observation Windows  WITH  Buprenorphine
+    type: string
+
+  mme_sum_allrx_mme_bup:
+    description: >-
+      Total MME across prescriptions - with buprenorphine  (calculated automatically)
+    type: number
+
+  mme_sum_rxdur_bup:
+    description: >-
+      Total Days Supply - with buprenorphine  (calculated automatically) Sum of prescription
+      duration days
+    type: number
+
+  mme_on_therapy_days_bup:
+    description: >-
+      On-therapy Days - with buprenorphine  Please ENTER the sum of prescription duration
+      days, with each calendar day counted only ONCE.  If only one prescription or
+      no overlapping days this will be same as the total days supply:  [mme_sum_rxdur_bup]
+    type: string
+
+  mme_fixed_observation_bup:
+    description: >-
+      Fixed observation window.  Enter number of days. This is a study-defined interval.
+      Examples: 7 days, 30 days, 60 days, 90 days. The fixed observation window excluding
+      buprenorphine has been copied here but you can edit this value if appropriate.
+    type: string
+
+  desc_withbup:
+    description: >-
+      Opioid MME/Day Calculations  WITH  Buprenorphine
+    type: string
+
+  mme_total_days_supply_bup:
+    description: >-
+      MME/Day Definition 1. Total Days Supply - with buprenorphine  - Total MME /Total
+      days supplied
+    type: number
+
+  mme_total_mme_on_ther_bup:
+    description: >-
+      MME/Day Definition 2. On-therapy Days - with buprenorphine Total MME/On-therapy
+      days
+    type: number
+
+  mme_total_fixed_observ_bup:
+    description: >-
+      MME/Day Definition 3. Fixed Observation Window - with buprenorphine - Total
+      MME/Fixed Observation Window
+    type: number
+
+  mme_max_daily_dose_bup:
+    description: >-
+      MME/Day Definition 4. Maximum Daily Dose - with buprenorphine Highest single-day
+      MME exposure This is sum of the 24 hour MME
+    type: number
+
+  descr_defn:
+    description: >-
+      Additional Information about MME/Day Definitions
+    type: string
+
+  descr_research:
+    description: >-
+      MME calculations are for research purposes only and are not meant to be used
+      for clinical surveillance purposes.
+    type: string
+
+  pb_substance_use:
+    $ref: "_definitions.yaml#/to_one"
