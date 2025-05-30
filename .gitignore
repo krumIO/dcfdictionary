@@ -80,6 +80,5 @@ admin_auth
 
 # artifacts
 artifacts/
-schemas/
 schemas-msu/
 schemas-wf/
