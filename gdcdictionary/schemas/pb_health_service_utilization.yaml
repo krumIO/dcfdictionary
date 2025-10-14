@@ -167,6 +167,11 @@ properties:
       a mental health disorder? [Illicit use should be excluded]
     type: string
 
+  mh_meds:
+    description: >-
+      Medication - 
+    type: string
+
   mh_meds___1:
     description: >-
       Medication - SSRIs? (e.g., sertraline, citalopram, fluoxetine, paroxetine)

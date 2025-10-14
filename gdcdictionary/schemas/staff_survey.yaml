@@ -50,6 +50,11 @@ properties:
       Are you of Hispanic, Latino, or Spanish origin?
     enum: []
 
+  impd_staff_race:
+    description: >-
+      What is your race? 
+    type: string
+
   impd_staff_race___1:
     description: >-
       What is your race? White
@@ -133,6 +138,11 @@ properties:
   impdrace_staff_othertxt:
     description: >-
       Some other race (SPECIFY)
+    type: string
+
+  impdgenid_staff:
+    description: >-
+      Gender Identity - Do you think of yourself as . . .
     type: string
 
   impdgenid_staff___1:
@@ -250,6 +260,11 @@ properties:
   imp_staff_othertxt:
     description: >-
       Please describe:
+    type: string
+
+  imp_staff_physspec:
+    description: >-
+      What is your physician specialty? 
     type: string
 
   imp_staff_physspec___1:

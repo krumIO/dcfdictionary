@@ -61,7 +61,7 @@ properties:
   mme_opioid_type:
     description: >-
       Select all opioid medication(s) that apply
-    type: boolean
+    type: string
 
   mme_buprenorphine:
     description: >-
@@ -174,7 +174,7 @@ properties:
   mme_bup_form:
     description: >-
       Which format(s) of buprenorphine is/are taken?
-    type: boolean
+    type: string
 
   mme_bup_filmtab_mg:
     description: >-
@@ -369,7 +369,7 @@ properties:
   mme_fent_form:
     description: >-
       Which format(s) of fentanyl is/are taken?
-    type: boolean
+    type: string
 
   mme_fent_bucc:
     description: >-
@@ -505,7 +505,7 @@ properties:
   mme_hydrocod_form:
     description: >-
       Which formulation(s) of hydrocodone is being taken?
-    type: boolean
+    type: string
 
   mme_hydrocod_conv:
     description: >-
@@ -555,7 +555,7 @@ properties:
   mme_hydromor_form:
     description: >-
       Which formulation(s) of hydromorphone is being taken?
-    type: boolean
+    type: string
 
   mme_hydromor_conv:
     description: >-
@@ -700,7 +700,7 @@ properties:
   mme_morphine_form:
     description: >-
       Which formulation(s) of morphine is being taken?
-    type: boolean
+    type: string
 
   mme_morphine_dose:
     description: >-
@@ -780,7 +780,7 @@ properties:
   mme_oxycod_form:
     description: >-
       Which formulation(s) of oxycodone is being taken?
-    type: boolean
+    type: string
 
   mme_oxycod_dose:
     description: >-
@@ -830,7 +830,7 @@ properties:
   mme_oxymor_form:
     description: >-
       Which formulation(s) of oxymorphone is being taken?
-    type: boolean
+    type: string
 
   mme_oxymor_dose:
     description: >-
@@ -910,7 +910,7 @@ properties:
   mme_tapen_form:
     description: >-
       Which formulation(s) of tapentadol is being taken?
-    type: boolean
+    type: string
 
   mme_tapen_dose:
     description: >-
@@ -960,7 +960,7 @@ properties:
   mm_tram_form:
     description: >-
       Which formulation(s) of tramadol is being taken?
-    type: boolean
+    type: string
 
   mme_tram_dose:
     description: >-

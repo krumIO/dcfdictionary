@@ -77,6 +77,11 @@ properties:
       Approximately how much do you make per hour?
     type: string
 
+  dem_benefits:
+    description: >-
+        Do any of the places that you work offer you the following benefits? (MARK ALL THAT APPLY)
+    type: string
+
   dem_benefits___1:
     description: >-
       Do any of the places that you work offer you the following benefits? (MARK ALL
@@ -142,6 +147,15 @@ properties:
     description: >-
       Are you currently covered by health insurance or some other kind of health care
       plan?
+    type: string
+
+  insurance_type:
+    description: >-
+      What kind of health insurance or health care coverage (did/do) you have? Include
+      those that pay for only one type of service (such as nursing home care, accidents,
+      or dental care). Exclude private plans that only provide extra cash while hospitalized.
+      If you have more than one kind of health insurance, tell me all plans that you
+      have.
     type: string
 
   insurance_type___1:

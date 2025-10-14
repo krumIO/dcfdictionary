@@ -47,6 +47,11 @@ properties:
       [illicit use should be excluded]
     type: string
 
+  moud_type:
+    description: >-
+      Which MOUD have you received? 
+    type: string
+
   moud_type___1:
     description: >-
       Which MOUD have you received? Buprenorphine

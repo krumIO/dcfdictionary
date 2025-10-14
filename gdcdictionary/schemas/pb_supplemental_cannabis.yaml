@@ -40,6 +40,11 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
+  medical_marijuana:
+    description: >-
+      Which of the following symptoms/conditions do you treat with medical cannabis? 
+    type: string
+
   medical_marijuana___1:
     description: >-
       Which of the following symptoms/conditions do you treat with medical cannabis?

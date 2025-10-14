@@ -40,6 +40,11 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
+  mbodycp:
+    description: >-
+      IMAGEMAP=MBODY - 
+    type: string
+
   mbodycp___0:
     description: >-
       IMAGEMAP=MBODY - MFace

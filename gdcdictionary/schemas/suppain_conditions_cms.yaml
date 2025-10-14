@@ -40,6 +40,13 @@ properties:
 
   $ref: "_definitions.yaml#/ubiquitous_properties"
 
+  imp_paindx:
+    description: >-
+      We are interested in finding out about pain conditions you have been diagnosed
+      with/personally experienced. Please select all you have ever been diagnosed
+      with or experienced: 
+    type: string
+
   imp_paindx___1:
     description: >-
       We are interested in finding out about pain conditions you have been diagnosed
@@ -424,6 +431,11 @@ properties:
     description: >-
       Tension headache
     type: number
+
+  oa_joint:
+    description: >-
+      Where is your osteoarthritis pain located? 
+    type: string
 
   oa_joint___1:
     description: >-
